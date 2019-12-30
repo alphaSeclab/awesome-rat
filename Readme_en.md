@@ -1,0 +1,770 @@
+# Other Resource Collection Projects:
+- [All open source security tools I collected](https://github.com/alphaSeclab/sec-tool-list/blob/master/Readme_en.md): More than 18K. Both Markdown and Json format.
+- [Reverse Engineering Resources](https://github.com/alphaSeclab/awesome-reverse-engineering/blob/master/Readme_en.md): IDA/Ghidra/x64dbg/OllDbg/WinDBG/CuckooSandbox/Radare2/BinaryNinja/DynamoRIO/IntelPin/Frida/Qemu/AndroidSecurity/iOSSecurity/WindowSecurity/LinuxSecurity/GameHacking/Bootkit/Rootkit/Angr/Shellcode/ProcessInjection/CodeInjection/DLLInjection/WSL/Sysmon/...
+- [Network Related Resources](https://github.com/alphaSeclab/awesome-network-stuff/blob/master/Readme_en.md): Proxy/GFW/ReverseProxy/Tunnel/VPN/Tor/I2P, and MiTM/PortKnocking/NetworkSniff/NetworkAnalysis/etc
+- [Offensive Security Resources](https://github.com/alphaSeclab/awesome-cyber-security/blob/master/Readme_en.md): Vulnerability/Pentest/IoTSecurity/DataExfiltration/Metasploit/BurpSuite/KaliLinux/C&C/OWASP/AntiVirus/CobaltStrike/Recon/OSINT/SocialEnginneringAttack/Password/Credential/ThreatHunting/Payload/WifiHacking/PostExploitation/PrivilegeEscalation/UACBypass/...
+
+
+
+
+# RAT
+
+
+# Directory
+- [Tools](#b318465d0d415e35fc0883e9894261d1)
+    - [(72) Recent Add](#e960171a4ec60db17bf2ca8741c0b0ba)
+    - [(9) Android](#ff0ee277301445eab50d8f7305529b31)
+    - [(19) Windows](#8322ac7d4e977e432c7f555c41e679f9)
+    - [(6) macOS](#bbf6ea7162d6fac128fc08f048bdb46d)
+    - [(5) Linux](#e24885fdf855ab0abc4d4e43a2430a92)
+    - [(2) Other](#dd024afe7ec719dc1377133376ef8926)
+- [Post&&Video](#2d7128e5a8bfffddee1b25b4c7c5a071)
+    - [(569) Recent Add](#7754928645bd8f4e280d61cc6addec76)
+
+
+# <a id="b318465d0d415e35fc0883e9894261d1"></a>Tools
+
+
+***
+
+
+## <a id="e960171a4ec60db17bf2ca8741c0b0ba"></a>Recent Add
+
+
+- [**5131**Star][4m] [Py] [n1nj4sec/pupy](https://github.com/n1nj4sec/pupy) Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python
+- [**1432**Star][3y] [Py] [nathanlopez/stitch](https://github.com/nathanlopez/stitch) a cross platform python framework which allows you to build custom payloads for Windows, Mac OSX and Linux as well
+- [**1113**Star][1y] [ObjC] [neoneggplant/eggshell](https://github.com/neoneggplant/eggshell) iOS/macOS/Linux Remote Administration Tool
+- [**683**Star][1y] [PS] [arvanaghi/sessiongopher](https://github.com/Arvanaghi/SessionGopher)  a PowerShell tool that uses WMI to extract saved session information for remote access tools such as WinSCP, PuTTY, SuperPuTTY, FileZilla, and Microsoft Remote Desktop. It can be run remotely or locally.
+- [**633**Star][11m] [Py] [mehulj94/braindamage](https://github.com/mehulj94/braindamage) Remote administration tool which uses Telegram as a C&C server
+- [**501**Star][20d] [C++] [m2team/nsudo](https://github.com/m2team/nsudo) A Powerful System Administration Tool
+- [**372**Star][3m] [C++] [werkamsus/lilith](https://github.com/werkamsus/lilith) Lilith, The Open Source C++ Remote Administration Tool (RAT)
+- [**347**Star][7m] [C#] [beckzhu/simpleremote](https://github.com/beckzhu/simpleremote) Remote Administration Tools
+- [**293**Star][4m] [C++] [yuanyuanxiang/simpleremoter](https://github.com/yuanyuanxiang/simpleremoter) RAT based on gh0st
+- [**284**Star][2y] [Py] [0xislamtaha/python-rootkit](https://github.com/0xIslamTaha/Python-Rootkit) Python Remote Administration Tool (RAT) to gain meterpreter session
+- [**264**Star][7y] [C++] [sin5678/gh0st](https://github.com/sin5678/gh0st) a open source remote administrator tool
+- [**205**Star][2y] [C#] [them4hd1/vayne-rat](https://github.com/them4hd1/vayne-rat) An Advanced C# .NET Rat, It’s Stable and Contains Many Features.
+- [**191**Star][1m] [PHP] [0blio/caesar](https://github.com/0blio/Caesar) An HTTP based RAT (Remote Administration Tool) that allows you to remotely control devices from your browser
+- [**189**Star][2y] [C++] [ahxr/ghost](https://github.com/ahxr/ghost) a light RAT that gives the server/attacker full remote access to the user's command-line interprete
+- [**185**Star][2m] [Py] [pure-l0g1c/loki](https://github.com/pure-l0g1c/loki) Remote Access Tool/Botnet
+- [**160**Star][2y] [C++] [hussein-aitlahcen/blackhole](https://github.com/hussein-aitlahcen/blackhole) C# RAT (Remote Administration Tool)
+- [**156**Star][3y] [Visual Basic .NET] [mwsrc/plasmarat](https://github.com/mwsrc/PlasmaRAT) Remote Access Trojan(RAT), Miner, DDoS
+- [**138**Star][2y] [Py] [anhkgg/pyrat](https://github.com/anhkgg/pyrat) PyRat，a rat by python xmlrpc
+- [**121**Star][3y] [Visual Basic .NET] [mwsrc/njrat](https://github.com/mwsrc/njrat) njRAT SRC Extract
+- [**113**Star][3y] [C#] [leurak/trollrat](https://github.com/leurak/trollrat) a Remote Administration Tool (RAT) which follows a different approach than the other RATs
+- [**98**Star][4y] [Py] [ridter/myjsrat](https://github.com/ridter/myjsrat) This is JSRat.ps1 in Python
+- [**95**Star][7y] [C#] [ilikenwf/darkagent](https://github.com/ilikenwf/darkagent) DarkAgent Remote Administration Tool RAT by DragonHunter
+- [**95**Star][2y] [Pascal] [senjaxus/allakore_remote](https://github.com/senjaxus/allakore_remote) Open Source Remote Access software written in Delphi Seattle.
+- [**94**Star][29d] [Go] [lu4p/torat](https://github.com/lu4p/torat)  a Remote Administation tool written in Go using Tor as a transport mechanism and RPC for communication
+- [**94**Star][2m] [JS] [securityrat/securityrat](https://github.com/securityrat/securityrat) OWASP SecurityRAT (version 1.x) - Tool for handling security requirements in development
+- [**81**Star][3y] [Py] [lukasikic/hacoder.py](https://github.com/lukasikic/hacoder.py) FUD Backdoor Generator / Remote Administration Tool
+- [**79**Star][1y] [C#] [advancedhacker101/c-sharp-r.a.t-server](https://github.com/advancedhacker101/c-sharp-r.a.t-server) a remote administration tool built with c#
+- [**78**Star][4y] [C++] [rwhitcroft/dnschan](https://github.com/rwhitcroft/dnschan) A remote access trojan over DNS
+- [**76**Star][4y] [Py] [ahhh/reverse_https_bot](https://github.com/ahhh/reverse_https_bot) A python based https remote access trojan for penetration testing
+- [**65**Star][5m] [Visual Basic .NET] [thesph1nx/rt-101](https://github.com/thesph1nx/rt-101) VB.net Remote Administrator Tool (RAT)
+- [**62**Star][2y] [Java] [ghosts/maus](https://github.com/ghosts/maus) Lightweight remote administrative client written in Java.
+- [**60**Star][10d] [Py] [angus-y/pyiris-backdoor](https://github.com/angus-y/pyiris-backdoor)  a modular, stealthy and flexible remote-access-toolkit written completely in python used to command and control other systems. 
+- [**55**Star][4y] [Py] [ahhh/ntp_trojan](https://github.com/ahhh/ntp_trojan) Reverse NTP remote access trojan in python, for penetration testers
+- [**55**Star][3y] [Py] [m4sc3r4n0/spyrat](https://github.com/m4sc3r4n0/spyrat) Python Remote Access Trojan
+- [**55**Star][11d] [Py] [uninett/nav](https://github.com/uninett/nav) Network Administration Visualized
+- [**51**Star][9m] [C#] [fsecurelabs/sharpgpo-remoteaccesspolicies](https://github.com/FSecureLABS/SharpGPO-RemoteAccessPolicies) A C# tool for enumerating remote access policies through group policy.
+- [**49**Star][1y] [Java] [blackhacker511/blackrat](https://github.com/blackhacker511/blackrat) BlackRAT - Java Based Remote Administrator Tool
+- [**46**Star][2m] [C#] [brunull/pace](https://github.com/brunull/pace) A Remote Access Tool for Windows.
+- [**44**Star][12d] [Py] [technowlogy-pushpender/technowhorse](https://github.com/technowlogy-pushpender/technowhorse) TechNowHorse is a RAT (Remote Administrator Trojan) Generator for Windows/Linux systems written in Python 3.
+- [**43**Star][5y] [C#] [c4bbage/xrat](https://github.com/c4bbage/xrat) xRAT 2.0 - Free, Open-Source Remote Administration Tool
+- [**42**Star][1y] [PHP] [davidtavarez/pinky](https://github.com/davidtavarez/pinky) pinky - The PHP mini RAT (Remote Administration Tool)
+- [**40**Star][2y] [C#] [wearelegal/cinarat](https://github.com/wearelegal/cinarat) CinaRAT - Cina Is Not A Remote Administration Tool
+- [**39**Star][4y] [Pascal] [senjaxus/delphi_remote_access_pc](https://github.com/senjaxus/delphi_remote_access_pc) Remote access in Delphi 7 and Delphi XE5 (With sharer files, CHAT and Forms Inheritance) || Acesso Remoto em Delphi 7 e Delphi XE5 (Com Compartilhador de Arquivos, CHAT e Herança de Formulários)
+- [**39**Star][3y] [Visual Basic .NET] [mwsrc/betterrat](https://github.com/mwsrc/BetterRAT) Better Remote Access Trojan
+- [**32**Star][4m] [C#] [blackvikingpro/aresskit](https://github.com/blackvikingpro/aresskit) Next Generation Remote Administration Tool (RAT)
+- [**32**Star][3y] [Pascal] [mwsrc/xtremerat](https://github.com/mwsrc/XtremeRAT) XtremeRAT SRC Extract
+- [**31**Star][2y] [C#] [valsov/backnet](https://github.com/valsov/backnet) Remote Administration Tool with botnet capability, Windows
+- [**27**Star][2y] [Py] [the404hacking/windows-python-rat](https://github.com/the404hacking/windows-python-rat) A New Microsoft Windows Remote Administrator Tool [RAT] with Python by Sir.4m1R.
+- [**25**Star][2y] [Py] [thegeekht/loki.rat](https://github.com/thegeekht/loki.rat) Loki.Rat is a fork of the Ares RAT, it integrates new modules, like recording , lockscreen , and locate options. Loki.Rat is a Python Remote Access Tool.
+- [**23**Star][1y] [C] [hardenedbsd/secadm](https://github.com/hardenedbsd/secadm) HardenedBSD Security Administration
+- [**23**Star][2y] [C] [p4p1/p4p1](https://github.com/p4p1/p4p1) Reverse shell for remote administration
+- [**23**Star][2m] [JS] [roemhildtg/spectre-canjs](https://github.com/roemhildtg/spectre-canjs) A WIP data administration component library built on the Spectre.css framework enabled with CanJS
+- [**21**Star][4m] [C#] [nyan-x-cat/revengerat-stub-cssharp](https://github.com/nyan-x-cat/revengerat-stub-cssharp) Revenge-RAT C# Stub - Fixed
+- [**19**Star][7m] [C#] [rainkin1993/remote-access-trojan-database](https://github.com/rainkin1993/remote-access-trojan-database) A database of RAT collected from Internet
+- [**18**Star][3y] [Visual Basic .NET] [malwares/plasmarat](https://github.com/malwares/plasmarat) Remote Access Trojan(RAT), Miner, DDoS
+- [**18**Star][3y] [Shell] [mitchellkrogza/linux-server-administration-scripts](https://github.com/mitchellkrogza/linux-server-administration-scripts) Simple bash administration scripts for Linux to make your life easier.
+- [**17**Star][3y] [Py] [landonpowell/orwell-rat-and-botnet](https://github.com/landonpowell/orwell-rat-and-botnet) Orwell is a RAT and Botnet designed as a trio of programs by Landon Powell.
+- [**16**Star][2y] [Py] [lithium95/controll_remote_access_trojan](https://github.com/lithium95/controll_remote_access_trojan) Created a VERY SIMPLE remote access Trojan that will establish administrative control over any windows machine it compromises.
+- [**16**Star][17d] [Py] [kaiiyer/backnet](https://github.com/kaiiyer/backnet) Backdoor+Botnet or BackNet is a Python Remote Access Tool.
+- [**14**Star][1y] [shifa123/maarc](https://github.com/shifa123/maarc) A Python - Remote Administration Tool (RAT)
+- [**13**Star][3y] [C++] [erhanbaris/relec-ransomware](https://github.com/erhanbaris/relec-ransomware) Ransomware application clone with administration dashboard
+- [**12**Star][2y] [JS] [node-rat/noderat](https://github.com/node-rat/noderat) NodeRat is remote access tool made with NodeJS and python
+- [**11**Star][3y] [Pascal] [mwsrc/schwarze-sonne-rat](https://github.com/mwsrc/schwarze-sonne-rat) SS-RAT (Schwarze-Sonne-Remote-Access-Trojan)
+- [**10**Star][2y] [Go] [alanbaumgartner/aurora](https://github.com/alanbaumgartner/aurora) Aurora Remote Administration Tool
+- [**9**Star][3m] [Py] [federicochieregato/darkfox](https://github.com/federicochieregato/darkfox) Remote access trojan created using WinRar with firefox installer and python Reverse Shell embedded.
+- [**7**Star][4y] [C#] [pigeonhands/mlrat](https://github.com/pigeonhands/mlrat) Plugin Driven Remote Administration Tool (Unsupported)
+- [**5**Star][9m] [Py] [apacketofsweets/apollo](https://github.com/apacketofsweets/apollo) A simple, lightweight Remote Access Tool written in Python
+- [**4**Star][3y] [C++] [mz-eur/invidia](https://github.com/mz-eur/invidia) Invidia Remote Administration Tool
+- [**3**Star][12m] [Py] [jakhax/shellverse](https://github.com/jakhax/shellverse) Shellverse is a multi-client and multi-threaded Remote Administration Tool and post-exploitation tool
+- [**2**Star][4y] [Visual Basic .NET] [retrobyte/shadowtech-rat](https://github.com/retrobyte/shadowtech-rat) An example of a remote administration tool.
+- [**2**Star][4m] [Py] [gbrn1/pirate](https://github.com/gbrn1/pirate) Python Remote Access Tool
+- [**0**Star][2y] [Shell] [jondade/admin](https://github.com/jondade/admin) Random systems and network administration scripts and sample code
+
+
+***
+
+
+## <a id="ff0ee277301445eab50d8f7305529b31"></a>Android
+
+
+- [**1745**Star][7m] [Smali] [ahmyth/ahmyth-android-rat](https://github.com/ahmyth/ahmyth-android-rat) Android Remote Administration Tool
+- [**920**Star][7y] [designativedave/androrat](https://github.com/designativedave/androrat) Remote Administration Tool for Android devices
+- [**903**Star][5y] [Java] [wszf/androrat](https://github.com/wszf/androrat) Remote Administration Tool for Android
+- [**163**Star][2y] [Java] [the404hacking/androrat](https://github.com/the404hacking/androrat) AndroRAT | Remote Administrator Tool for Android OS Hacking
+- [**132**Star][3y] [Java] [mwsrc/betterandrorat](https://github.com/mwsrc/betterandrorat) Android Remote Access Trojan
+- [**65**Star][6y] [Java] [ibrahimbalic/androidrat](https://github.com/ibrahimbalic/androidrat) Android RAT
+- [**60**Star][2y] [Java] [globalpolicy/phonemonitor](https://github.com/globalpolicy/phonemonitor) A Remote Administration Tool for Android devices
+- [**47**Star][3y] [Py] [alessandroz/pupy](https://github.com/alessandroz/pupy) Pupy is an opensource, multi-platform (Windows, Linux, OSX, Android), multi function RAT (Remote Administration Tool) mainly written in python.
+- [**5**Star][2y] [rev-code/androidclient](https://github.com/rev-code/androidclient) Android remote administration client
+
+
+***
+
+
+## <a id="8322ac7d4e977e432c7f555c41e679f9"></a>Windows
+
+
+- [**2840**Star][8m] [C#] [quasar/quasarrat](https://github.com/quasar/quasarrat) Remote Administration Tool for Windows
+- [**599**Star][1y] [PS] [fortynorthsecurity/wmimplant](https://github.com/FortyNorthSecurity/WMImplant) This is a PowerShell based tool that is designed to act like a RAT. Its interface is that of a shell where any command that is supported is translated into a WMI-equivalent for use on a network/remote machine. WMImplant is WMI based.
+- [**500**Star][6m] [Visual Basic .NET] [nyan-x-cat/lime-rat](https://github.com/nyan-x-cat/lime-rat) LimeRAT | Simple, yet powerful remote administration tool for Windows (RAT)
+- [**469**Star][4m] [Py] [viralmaniar/powershell-rat](https://github.com/viralmaniar/powershell-rat) Python based backdoor that uses Gmail to exfiltrate data through attachment. This RAT will help during red team engagements to backdoor any Windows machines. It tracks the user activity using screen capture and sends it to an attacker as an e-mail attachment.
+- [**329**Star][3y] [Pascal] [malwares/remote-access-trojan](https://github.com/malwares/remote-access-trojan) Windows Remote-Access-Trojan
+- [**323**Star][10d] [C#] [nyan-x-cat/asyncrat-c-sharp](https://github.com/nyan-x-cat/asyncrat-c-sharp) Open-Source Remote Administration Tool For Windows C# (RAT)
+- [**317**Star][6m] [Py] [mvrozanti/rat-via-telegram](https://github.com/mvrozanti/rat-via-telegram) Windows Remote Administration Tool via Telegram
+- [**226**Star][4y] [Py] [hood3drob1n/jsrat-py](https://github.com/hood3drob1n/jsrat-py) This is my implementation of JSRat.ps1 in Python so you can now run the attack server from any OS instead of being limited to a Windows OS with Powershell enabled.
+- [**149**Star][9m] [Py] [safebreach-labs/sireprat](https://github.com/safebreach-labs/sireprat) Remote Command Execution as SYSTEM on Windows IoT Core
+- [**108**Star][7m] [C#] [dannythesloth/vanillarat](https://github.com/dannythesloth/vanillarat) VanillaRat is an advanced remote administration tool completely coded in C# for Windows.
+- [**105**Star][11m] [Py] [thelinuxchoice/pyrat](https://github.com/thelinuxchoice/pyrat) Windows Remote Administration Tool (RAT)
+- [**104**Star][8m] [C#] [r-smith/splice-admin](https://github.com/r-smith/splice-admin) A remote Windows administration tool. You know you want it.
+- [**100**Star][2y] [Py] [syss-research/outis](https://github.com/syss-research/outis)  a custom Remote Administration Tool (RAT) or something like that. It was build to support various transport methods (like DNS) and platforms (like Powershell).
+- [**68**Star][1m] [PS] [dsccommunity/certificatedsc](https://github.com/dsccommunity/CertificateDsc) This DSC Resource module can be used to simplify administration of certificates on a Windows Server.
+- [**67**Star][4y] [C#] [stphivos/rat-shell](https://github.com/stphivos/rat-shell) Windows Remote Access Trojan (RAT)
+- [**39**Star][3y] [Py] [swordf1sh/moderat](https://github.com/swordf1sh/moderat) Experimental Windows Remote Administration and Spy Tool in Python + GUI
+- [**20**Star][12m] [Visual Basic] [nyan-x-cat/asyncrat](https://github.com/nyan-x-cat/asyncrat) Remote Administration Tool For Windows
+- [**17**Star][9m] [Py] [operatorequals/smbrat](https://github.com/operatorequals/smbrat) A Windows Remote Administration Tool in Visual Basic with UNC paths
+- [**16**Star][2y] [PS] [yschgroup/skyrat](https://github.com/yschgroup/skyrat) SkyRAT - Powershell Remote Administration Tool
+
+
+***
+
+
+## <a id="bbf6ea7162d6fac128fc08f048bdb46d"></a>macOS
+
+
+- [**1335**Star][1y] [Py] [marten4n6/evilosx](https://github.com/marten4n6/evilosx) An evil RAT (Remote Administration Tool) for macOS / OS X.
+- [**408**Star][1m] [ObjC] [sap/macos-enterprise-privileges](https://github.com/sap/macos-enterprise-privileges) For Mac users in an Enterprise environment this app ensures secure environment and yet gives the User control over administration of their machine by elevating their level of access to Administrator privilege on macOS X. Users can set the time frame using Preferences to perform specific tasks such as install or remove an application.
+- [**72**Star][4y] [Pascal] [xlinshan/coldroot](https://github.com/xlinshan/coldroot) Mac OS Trojan (RAT) made with love <3
+- [**68**Star][1y] [Py] [kdaoudieh/bella](https://github.com/kdaoudieh/bella) Bella is a pure python post-exploitation data mining tool & remote administration tool for macOS.
+- [**20**Star][3y] [Py] [cys3c/evilosx](https://github.com/cys3c/evilosx) A pure python, post-exploitation, remote administration tool (RAT) for macOS / OS X.
+- [**4**Star][3y] [Py] [kai5263499/bella](https://github.com/kai5263499/bella) A pure python, post-exploitation, data mining tool and remote administration tool for macOS.
+
+
+***
+
+
+## <a id="e24885fdf855ab0abc4d4e43a2430a92"></a>Linux
+
+
+- [**130**Star][7m] [C] [abhishekkr/n00brat](https://github.com/abhishekkr/n00brat) Remote Administration Toolkit (or Trojan) for POSiX (Linux/Unix) system working as a Web Service
+- [**67**Star][8m] [JS] [webxscan/linux_rat](https://github.com/webxscan/linux_rat) Linux Reverse Shell RAT
+- [**49**Star][3m] [C] [thibault-69/rat-hodin-v2.9](https://github.com/Thibault-69/RAT-Hodin-v2.9) Remote Administration Tool for Linux
+- [**19**Star][1y] [C] [lillypad/swamp-rat](https://github.com/lillypad/swamp-rat) A Linux RAT in C
+- [**7**Star][3m] [C] [ctsecurity/stealth-kid-rat](https://github.com/ctsecurity/Stealth-Kid-RAT) Stealth Kid RAT (SKR) is an open source Linux remote administration tool written in C. Licensed under MIT. The SKR project is fully developed and tested on Debian GNU-Linux (Deb 9.3 "Stretch") platform. The RAT will soon be available on Windows platform by mid 2018.
+
+
+***
+
+
+## <a id="dd024afe7ec719dc1377133376ef8926"></a>Other
+
+
+- [**780**Star][2m] [Py] [kevthehermit/ratdecoders](https://github.com/kevthehermit/ratdecoders) Python Decoders for Common Remote Access Trojans
+- [**157**Star][1y] [Py] [fireeye/geologonalyzer](https://github.com/fireeye/geologonalyzer) a utility to analyze remote access logs for anomalies such as travel feasibility and data center sources.
+
+
+# <a id="2d7128e5a8bfffddee1b25b4c7c5a071"></a>Post&&Video
+
+
+***
+
+
+## <a id="7754928645bd8f4e280d61cc6addec76"></a>Recent Add
+
+
+- 2019.12 [ptsecurity] [Turkish tricks with worms, RATs… and a freelancer](http://blog.ptsecurity.com/2019/12/turkish-tricks-with-worms-rats-and.html)
+- 2019.12 [carbonblack] [Threat Analysis Unit (TAU) Threat Intelligence Notification: BlackRemote RAT](https://www.carbonblack.com/2019/12/13/threat-analysis-unit-tau-threat-intelligence-notification-blackremote-rat/)
+- 2019.11 [4hou] [双加载的ZIP文件传播Nanocore RAT](https://www.4hou.com/info/news/21483.html)
+- 2019.11 [fortinet] [Double Trouble:  RevengeRAT and WSHRAT](https://www.fortinet.com/blog/threat-research/malware-analysis-revenge-rat-sample.html)
+- 2019.11 [krebsonsecurity] [Orcus RAT Author Charged in Malware Scheme](https://krebsonsecurity.com/2019/11/orcus-rat-author-charged-in-malware-scheme/)
+- 2019.10 [pentestpartners] [Objections to IoT regulation. A rational reply](https://www.pentestpartners.com/security-blog/objections-to-iot-regulation-a-rational-reply/)
+- 2019.10 [fortinet] [A Deep-Dive Analysis of the NukeSped RATs](https://www.fortinet.com/blog/threat-research/deep-analysis-nukesped-rat.html)
+- 2019.10 [fortinet] [New Variant of Remcos RAT Observed In the Wild](https://www.fortinet.com/blog/threat-research/new-variant-of-remcos-rat-observed-in-the-wild.html)
+- 2019.10 [tencent] [快Go矿工（KuaiGoMiner）控制数万电脑挖矿，释放远控木马窃取机密](https://s.tencent.com/research/report/824.html)
+- 2019.10 [4hou] [快go矿工（KuaiGoMiner）控制数万电脑挖矿，释放远控木马窃取机密](https://www.4hou.com/system/20919.html)
+- 2019.10 [freebuf] [反间谍之旅：首款安卓远控木马工具分析](https://www.freebuf.com/articles/terminal/214201.html)
+- 2019.10 [angelalonso] [WSH RAT - Analysis of the code](https://blog.angelalonso.es/2019/10/wsh-rat-analysis-of-code.html)
+- 2019.10 [angelalonso] [Fudcrypt using H-Worm from WSH RAT](https://blog.angelalonso.es/2019/10/fudcrypt-using-h-worm-from-wshrat.html)
+- 2019.10 [TheLinuxFoundation] [Tracing Resource-constrained Embedded Systems using eBPF - Ioan-Adrian Ratiu, Collabora](https://www.youtube.com/watch?v=Moi8izZ2glQ)
+- 2019.09 [4hou] [病毒团伙利用phpStudy RCE漏洞批量抓鸡，下发四个远控木马](https://www.4hou.com/system/20637.html)
+- 2019.09 [360] [Revenge-RAT is used in phishing emails attacks against Italy](https://blog.360totalsecurity.com/en/revenge-rat-is-used-in-phishing-emails-attacks-against-italy/)
+- 2019.09 [malware] [2019-09-24 - PCAP AND MALWARE FOR AN ISC DIARY (QUASAR RAT)](http://malware-traffic-analysis.net/2019/09/24/index.html)
+- 2019.09 [aliyun] [利用badusb对用户进行木马远控](https://xz.aliyun.com/t/6386)
+- 2019.09 [fortinet] [New NetWire RAT Variant Being Spread Via Phishing](https://www.fortinet.com/blog/threat-research/new-netwire-rat-variant-spread-by-phishing.html)
+- 2019.09 [myonlinesecurity] [Some changes to Remcos Rat persistence method](https://myonlinesecurity.co.uk/some-changes-to-remcos-rat-persistence-method/)
+- 2019.09 [myonlinesecurity] [Fake TNT delivery drops WSHRAT via DiscordApp](https://myonlinesecurity.co.uk/fake-tnt-delivery-drops-wshrat-via-discordapp/)
+- 2019.09 [myonlinesecurity] [Fake invoice tries to deliver Remcos RAT](https://myonlinesecurity.co.uk/fake-invoice-tries-to-deliver-remcos-rat/)
+- 2019.09 [freebuf] [黑客购买新型WSH RAT最新变种样本，攻击银行客户](https://www.freebuf.com/articles/system/214269.html)
+- 2019.09 [sensecy] [ARABIC-SPEAKING THREAT ACTOR RECYCLES THE SOURCE CODE OF POPULAR RAT SPYNOTE AND SELLS IT IN THE DARK WEB, AS NEW](https://blog.sensecy.com/2019/09/15/arabic-speaking-threat-actor-recycles-the-source-code-of-popular-rat-spynote-and-sells-it-in-the-dark-web-as-new/)
+- 2019.09 [malware] [2019-09-13 - WSHRAT INFECTION FROM MALSPAM](http://malware-traffic-analysis.net/2019/09/13/index.html)
+- 2019.09 [freebuf] [钓鱼邮件中的Remcos RAT变种分析](https://www.freebuf.com/articles/network/212400.html)
+- 2019.09 [malware] [2019-09-03 - PCAP AND MALWARE FOR AN ISC DIARY (REMCOS RAT)](http://malware-traffic-analysis.net/2019/09/03/index.html)
+- 2019.09 [angelalonso] [WSH RAT and the link to unknowcrypter and Fudcrypt](https://blog.angelalonso.es/2019/09/wsh-rat-and-link-to-unknowcrypter-and.html)
+- 2019.08 [securelist] [Fully equipped Spying Android RAT from Brazil: BRATA](https://securelist.com/spying-android-rat-from-brazil-brata/92775/)
+- 2019.08 [talosintelligence] [RAT Ratatouille: Backdooring PCs with leaked RATs](https://blog.talosintelligence.com/2019/08/rat-ratatouille-revrat-orcus.html)
+- 2019.08 [malware] [2019-08-26 - DATA DUMP: SOCGHOLISH CAMPAIGN PUSHES NETSUPPORT RAT](http://malware-traffic-analysis.net/2019/08/26/index.html)
+- 2019.08 [4hou] [Adwind远控当前被广泛用于公共事业部门的攻击活动中](https://www.4hou.com/info/19812.html)
+- 2019.08 [malware] [2019-08-23 - DATA DUMP (URSNIF, RIG EK, NETWIRE RAT)](http://malware-traffic-analysis.net/2019/08/23/index.html)
+- 2019.08 [fortinet] [Fake Indian Income Tax Calculator Delivers xRAT Variant](https://www.fortinet.com/blog/threat-research/fake-indian-income-tax-calculator-xrat-variant.html)
+- 2019.08 [trendmicro] [Analysis: New Remcos RAT Arrives Via Phishing Email](https://blog.trendmicro.com/trendlabs-security-intelligence/analysis-new-remcos-rat-arrives-via-phishing-email/)
+- 2019.08 [bromium] [Decrypting L0rdix RAT’s C2](https://www.bromium.com/decrypting-l0rdix-rats-c2/)
+- 2019.07 [tencent] [商贸信家族新活跃：利用钓鱼邮件传播商业远控木马RevetRAT](https://s.tencent.com/research/report/767.html)
+- 2019.07 [hackingarticles] [EvilOSX-RAT for MacOS/OSX](https://www.hackingarticles.in/evilosx-rat-for-macos-osx/)
+- 2019.07 [bromium] [An Analysis of L0rdix RAT, Panel and Builder](https://www.bromium.com/an-analysis-of-l0rdix-rat-panel-and-builder/)
+- 2019.07 [freebuf] [关于远控木马你应该了解的知识点](https://www.freebuf.com/articles/system/207643.html)
+- 2019.07 [trendmicro] [Spam Campaign Targets Colombian Entities with Custom-made ‘Proyecto RAT,’ Uses Email Service YOPmail for C&C](https://blog.trendmicro.com/trendlabs-security-intelligence/spam-campaign-targets-colombian-entities-with-custom-proyecto-rat-email-service-yopmail-for-cc/)
+- 2019.07 [homelandsecuritynewswire] [Trump Is Rattling Sabers in Cyberspace — but Is the U.S. Ready?](http://www.homelandsecuritynewswire.com/dr20190715-trump-is-rattling-sabers-in-cyberspace-but-is-the-u-s-ready)
+- 2019.07 [freebuf] [APT34核心组件Glimpse：远控复现与流量分析](https://www.freebuf.com/articles/database/207469.html)
+- 2019.07 [d] [Red Team Diary, Entry #1: Making NSA’s PeddleCheap RAT Invisible](https://medium.com/p/f88ccbdc484d)
+- 2019.07 [yoroi] [Spotting RATs: Tales from a Criminal Attack](https://blog.yoroi.company/research/spotting-rats-tales-from-a-criminal-attack/)
+- 2019.07 [cybersecpolitics] [Book Review: Delusions of Intelligence, R.A. RATCLIFF](https://cybersecpolitics.blogspot.com/2019/07/book-review-delusions-of-intelligence.html)
+- 2019.07 [4hou] [探寻木马进化趋势：APT32多版本远控木马Ratsnif的横向分析](https://www.4hou.com/reverse/18994.html)
+- 2019.07 [4hou] [浅谈远控木马](https://www.4hou.com/info/observation/19022.html)
+- 2019.07 [talosintelligence] [RATs and stealers rush through “Heaven’s Gate” with new loader](https://blog.talosintelligence.com/2019/07/rats-and-stealers-rush-through-heavens.html)
+- 2019.06 [myonlinesecurity] [More AgentTesla keylogger and Nanocore RAT in one bundle](https://myonlinesecurity.co.uk/more-agenttesla-keylogger-and-nanocore-rat-in-one-bundle/)
+- 2019.06 [4hou] [警惕H-worm蠕虫病毒伪装电影样片钓鱼，草率点击附件会中远控木马](https://www.4hou.com/web/18741.html)
+- 2019.06 [myonlinesecurity] [Nanocore RAT via fake DHL failed delivery in Chinese](https://myonlinesecurity.co.uk/nanocore-rat-via-fake-dhl-failed-delivery-in-chinese/)
+- 2019.06 [myonlinesecurity] [Remcos Rat via fake invoice using multiple delivery methods.](https://myonlinesecurity.co.uk/remcos-rat-via-fake-invoice-using-multiple-delivery-methods/)
+- 2019.06 [4hou] [TA505在最新攻击活动中使用HTML, RAT和其他技术](https://www.4hou.com/web/18563.html)
+- 2019.06 [trendmicro] [Shifting Tactics: Breaking Down TA505 Group’s Use of HTML, RATs and Other Techniques in Latest Campaigns](https://blog.trendmicro.com/trendlabs-security-intelligence/shifting-tactics-breaking-down-ta505-groups-use-of-html-rats-and-other-techniques-in-latest-campaigns/)
+- 2019.06 [HackerSploit] [Remcos RAT Review - The Most Advanced Remote Access Tool](https://www.youtube.com/watch?v=rffkJDcri18)
+- 2019.05 [Fig] [Forest CS Skip Backwalk Strat 2nd Frame Adjustment (Swordless)](https://www.youtube.com/watch?v=qRp-MBYCFp0)
+- 2019.05 [4hou] [提高恶意软件多任务处理能力的Babylon RAT](https://www.4hou.com/web/18114.html)
+- 2019.05 [myonlinesecurity] [nanocore RAT via fake order in password protected word doc with wrong password](https://myonlinesecurity.co.uk/nanocore-rat-via-fake-order-in-password-protected-word-doc-with-wrong-password/)
+- 2019.05 [360] [记一次利用XLM宏投放远控工具的垃圾邮件活动](https://www.anquanke.com/post/id/178366/)
+- 2019.05 [arxiv] [[1905.07273] Finding Rats in Cats: Detecting Stealthy Attacks using Group Anomaly Detection](https://arxiv.org/abs/1905.07273)
+- 2019.05 [freebuf] [基于Python的BS远控Ares实战](https://www.freebuf.com/articles/system/202419.html)
+- 2019.05 [4hou] [C&C远控工具:WebSocket C2](https://www.4hou.com/tools/17528.html)
+- 2019.05 [myonlinesecurity] [Fake Payment receipt vbs drops njrat bladabindi downloads Agent Tesla via Sendspace.](https://myonlinesecurity.co.uk/fake-payment-receipt-vbs-drops-njrat-bladabindi-downloads-agent-tesla-via-sendspace/)
+- 2019.04 [freebuf] [看我如何揪出远控背后的幕后黑手](https://www.freebuf.com/vuls/200895.html)
+- 2019.04 [4hou] [C&C远控工具：Ares](https://www.4hou.com/tools/17527.html)
+- 2019.04 [krebsonsecurity] [Who’s Behind the RevCode WebMonitor RAT?](https://krebsonsecurity.com/2019/04/whos-behind-the-revcode-webmonitor-rat/)
+- 2019.04 [freebuf] [门罗币挖矿&远控木马样本分析](https://www.freebuf.com/articles/system/200875.html)
+- 2019.04 [4hou] [门罗币挖矿+远控木马样本分析](https://www.4hou.com/system/17380.html)
+- 2019.04 [yoroi] [LimeRAT spreads in the wild](https://blog.yoroi.company/research/limerat-spreads-in-the-wild/)
+- 2019.03 [360] [木马作者主动提交Tatoo远控后门程序](https://www.anquanke.com/post/id/175513/)
+- 2019.03 [HackerSploit] [How To Automatically Embed Payloads In APK's - Evil-Droid, Thefatrat & Apkinjector](https://www.youtube.com/watch?v=C_Og6LnEZSg)
+- 2019.03 [alienvault] [The odd case of a Gh0stRAT variant](https://www.alienvault.com/blogs/labs-research/the-odd-case-of-a-gh0strat-variant)
+- 2019.03 [flashpoint] [FIN7 Revisited: Inside Astra Panel and SQLRat Malware](https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/)
+- 2019.03 [paloaltonetworks] [Cardinal RAT Sins Again, Targets Israeli Fin-T](https://unit42.paloaltonetworks.com/cardinal-rat-sins-again-targets-israeli-fin-tech-firms/)
+- 2019.03 [malware] [2019-03-06 - QUICK POST: KOREAN MALSPAM PUSHES FLAWED AMMYY RAT MALWARE](http://malware-traffic-analysis.net/2019/03/06/index.html)
+- 2019.03 [alienvault] [Mapping TrickBot and RevengeRAT with MITRE ATT&CK and AlienVault USM Anywhere](https://www.alienvault.com/blogs/labs-research/mapping-trickbot-and-revengerat-with-mitre-attck-and-alienvault-usm-anywhere)
+- 2019.02 [dodgethissecurity] [Reverse Engineering an Unknown RAT – Lets call it SkidRAT 1.0](https://www.dodgethissecurity.com/2019/02/28/reverse-engineering-an-unknown-rat-lets-call-it-skidrat-1-0/)
+- 2019.02 [4hou] [Revenge RAT恶意软件升级版来袭](http://www.4hou.com/web/16164.html)
+- 2019.02 [myonlinesecurity] [Fake Blockchain authentication update delivers Dark Comet RAT](https://myonlinesecurity.co.uk/fake-blockchain-authentication-update-delivers-dark-comet-rat/)
+- 2019.02 [securityartwork] [Case study: “Imminent RATs” (III)](https://www.securityartwork.es/2019/02/08/case-study-imminent-rats-iii/)
+- 2019.02 [securityartwork] [Case study: “Imminent RATs” (II)](https://www.securityartwork.es/2019/02/06/case-study-imminent-rats-ii/)
+- 2019.02 [securityledger] [ExileRAT Malware Targets Tibetan Exile Government](https://securityledger.com/2019/02/exilerat-malware-targets-tibetan-exile-government/)
+- 2019.02 [securityartwork] [Case study: “Imminent RATs” (I)](https://www.securityartwork.es/2019/02/04/case-study-imminent-rats-i/)
+- 2019.02 [talosintelligence] [ExileRAT shares C2 with LuckyCat, targets Tibet](https://blog.talosintelligence.com/2019/02/exilerat-shares-c2-with-luckycat.html)
+- 2019.01 [myonlinesecurity] [Fake Autec Power purchase Order delivers Nanocore RAT](https://myonlinesecurity.co.uk/fake-autec-power-purchase-order-delivers-nanocore-rat/)
+- 2019.01 [angelalonso] [Fudcrypt: the service to crypt Java RAT through VBS scripts and Houdini malware](https://blog.angelalonso.es/2019/01/fudcrypt-service-to-crypt-java-rat.html)
+- 2019.01 [yoroi] [The Story of Manuel’s Java RAT](https://blog.yoroi.company/research/the-story-of-manuels-java-rat/)
+- 2019.01 [0x00sec] [RATs question. Long break](https://0x00sec.org/t/rats-question-long-break/11084/)
+- 2019.01 [aliyun] [使用MS Word文档传播.Net RAT恶意软件](https://xz.aliyun.com/t/3873)
+- 2019.01 [tencent] [腾讯电脑管家：“大灰狼”远控木马伪装成“会所会员资料”传播](https://s.tencent.com/research/report/640.html)
+- 2019.01 [4hou] [使用MS Word文档传播.Net RAT恶意软件](http://www.4hou.com/system/15835.html)
+- 2019.01 [0x00sec] [VPS or a VPN for a RAT?](https://0x00sec.org/t/vps-or-a-vpn-for-a-rat/10973/)
+- 2019.01 [talosintelligence] [What we learned by unpacking a recent wave of Imminent RAT infections using AMP](https://blog.talosintelligence.com/2019/01/what-we-learned-by-unpacking-recent.html)
+- 2019.01 [fortinet] [.Net RAT Malware Being Spread by MS Word Documents](https://www.fortinet.com/blog/threat-research/-net-rat-malware-being-spread-by-ms-word-documents.html)
+- 2019.01 [4hou] [TA505将新的ServHelper Backdoor和FlawedGrace RAT添加到其军火库中](http://www.4hou.com/web/15732.html)
+- 2019.01 [myonlinesecurity] [Nanocore RAT via fake order emails](https://myonlinesecurity.co.uk/nanocore-rat-via-fake-order-emails/)
+- 2019.01 [UltraHacks] [Ozone RAT C++ | Hidden VNC [TUTORIAL VIDEO] | Ultra Hacks](https://www.youtube.com/watch?v=72ej6IJPOoY)
+- 2019.01 [malware] [2019-01-04 - MALSPAM PUSHES NANOCORE RAT](http://malware-traffic-analysis.net/2019/01/04/index.html)
+- 2019.01 [tencent] [疑似Gorgon组织使用Azorult远控木马针对中国外贸行业的定向攻击活动](https://s.tencent.com/research/report/624.html)
+- 2019.01 [jhalderm] [Absolute Pwnage: Security  Risks of Remote Administration Tools](https://jhalderm.com/pub/papers/pwnage-fc11.pdf)
+- 2018.12 [Kaspersky] [Attacks on industrial enterprises using remote administration tools](https://www.youtube.com/watch?v=SZrDLehoAPY)
+- 2018.12 [ironcastle] [AR18-352A: Quasar Open-Source Remote Administration Tool](https://www.ironcastle.net/ar18-352a-quasar-open-source-remote-administration-tool/)
+- 2018.12 [360] [Flash 0day + Hacking Team远控：利用最新Flash 0day漏洞的攻击活动与关联分析](https://www.anquanke.com/post/id/167334/)
+- 2018.12 [freebuf] [Flash 0day+Hacking Team远控：利用最新Flash 0day漏洞的攻击活动与关联分析](https://www.freebuf.com/articles/system/191382.html)
+- 2018.11 [myonlinesecurity] [More Fake DHL invoices delivering Remcos RAT via office XML files](https://myonlinesecurity.co.uk/more-fake-dhl-invoices-delivering-remcos-rat-via-office-xml-files/)
+- 2018.11 [trendmicro] [AutoIt-Compiled Worm Affecting Removable Media Delivers Fileless Version of BLADABINDI/njRAT Backdoor](https://blog.trendmicro.com/trendlabs-security-intelligence/autoit-compiled-worm-affecting-removable-media-delivers-fileless-version-of-bladabindi-njrat-backdoor/)
+- 2018.11 [myonlinesecurity] [Fake Payment Receipt delivers Nanocore RAT malware](https://myonlinesecurity.co.uk/fake-payment-receipt-delivers-nanocore-rat-malware/)
+- 2018.11 [UltraHacks] [Warzone RAT C++ | Hidden VNC [PROMOTION VIDEO]| Ultra Hacks](https://www.youtube.com/watch?v=QV_21Qv-0d0)
+- 2018.11 [proofpoint] [tRat: New modular RAT appears in multiple email campaigns](https://www.proofpoint.com/us/threat-insight/post/trat-new-modular-rat-appears-multiple-email-campaigns)
+- 2018.11 [trendmicro] [Using Machine Learning to Cluster Malicious Network Flows From Gh0st RAT Variants](https://blog.trendmicro.com/trendlabs-security-intelligence/using-machine-learning-to-cluster-malicious-network-flows-from-gh0st-rat-variants/)
+- 2018.10 [DEFCONConference] [DEF CON 26 CAR HACKING VILLAGE - Dan Regalado - Meet Salinas, 1st SMS commanded Car Infotainment RAT](https://www.youtube.com/watch?v=j3dfgTKa7pQ)
+- 2018.10 [cybrary] [“I smell a rat!” – AhMyth, not a Myth](https://www.cybrary.it/2018/10/ahmyth-not-myth/)
+- 2018.10 [welivesecurity] [LuminosityLink RAT pack leader jailed 30 months in the US](https://www.welivesecurity.com/2018/10/24/luminositylink-rat-author-sentenced-jail/)
+- 2018.10 [cofense] [H-Worm and jRAT Malware: Two RATs are Better than One](https://cofense.com/h-worm-jrat-malware-two-rats-better-one/)
+- 2018.10 [UltraHacks] [XenaRAT [BETA] Tutorial](https://www.youtube.com/watch?v=SGQbFg12aVI)
+- 2018.10 [360] [远控木马盗用网易官方签名](https://www.anquanke.com/post/id/162056/)
+- 2018.10 [Fig] [Boatskip Movement: Standard Strat vs Guano Walk](https://www.youtube.com/watch?v=PuHW-oRueOI)
+- 2018.10 [ncsc] [RATs, Mimikatz and other domestic pests](https://www.ncsc.gov.uk/blog-post/rats-mimikatz-and-other-domestic-pests)
+- 2018.10 [infosecinstitute] [Interview with RaT, the High Council President of SOLDIERX](https://resources.infosecinstitute.com/interview-with-rat-the-high-council-president-of-soldierx/)
+- 2018.10 [securityledger] [Episode 114: Complexity at Root of Facebook Breach and LoJax is a RAT You Can’t Kill](https://securityledger.com/2018/10/episode-114-complexity-at-root-of-facebook-breach-and-lojax-is-a-rat-you-cant-kill/)
+- 2018.10 [sophos] [IP EXPO Europe 2018: Sophos experts talk AI, privacy vs security, and RATs](https://news.sophos.com/en-us/2018/10/02/ip-expo-europe-2018-sophos-experts-talk-ai-privacy-vs-security-and-rats/)
+- 2018.09 [malwarebytes] [Buggy implementation of CVE-2018-8373 vulnerability used to deliver Quasar RAT](https://blog.malwarebytes.com/threat-analysis/2018/09/buggy-implementation-of-cve-2018-8373-used-to-deliver-quasar-rat/)
+- 2018.09 [kaspersky] [Threats posed by using RATs in ICS](https://ics-cert.kaspersky.com/reports/2018/09/20/threats-posed-by-using-rats-in-ics/)
+- 2018.09 [kaspersky] [Industrial networks in need of RAT control](https://www.kaspersky.com/blog/rats-in-ics/23949/)
+- 2018.09 [securelist] [Threats posed by using RATs in ICS](https://securelist.com/threats-posed-by-using-rats-in-ics/88011/)
+- 2018.09 [myonlinesecurity] [Fake Purchase Order email delivers Remcos RAT](https://myonlinesecurity.co.uk/fake-purchase-order-email-delivers-remcos-rat/)
+- 2018.09 [UltraHacks] [How to setup DarkCometRAT 5.3.1 + Portforward](https://www.youtube.com/watch?v=fTeUTvg1_jE)
+- 2018.08 [freebuf] [Hero RAT：一种基于Telegram的Android恶意软件](http://www.freebuf.com/articles/terminal/179842.html)
+- 2018.08 [UltraHacks] [Remcos RAT Tutorial  | Remote Administration Tool | Ultra Hacks](https://www.youtube.com/watch?v=hlf5k86LwMI)
+- 2018.08 [Sebdraven] [Lammers, stealers and RATs: same technics like Formbook malware to install JRAT and HawkEye…](https://medium.com/p/8c010e9f40d4)
+- 2018.08 [4hou] [垃圾邮件活动滥用SettingContent-ms传播FlawedAmmyy RAT](http://www.4hou.com/web/12902.html)
+- 2018.08 [alienvault] [Off-the-shelf RATs Targeting Pakistan](https://www.alienvault.com/blogs/labs-research/off-the-shelf-rats-targeting-pakistan)
+- 2018.07 [k7computing] [Weaponized.IQY: A Quest to Deliver the FlawedAmmyy RAT](https://blog.k7computing.com/?p=6877)
+- 2018.07 [trendmicro] [Spam Campaign Abusing SettingContent-ms Found Dropping Same FlawedAmmy RAT Distributed by Necurs](https://blog.trendmicro.com/trendlabs-security-intelligence/spam-campaign-abusing-settingcontent-ms-found-dropping-same-flawedammy-rat-distributed-by-necurs/)
+- 2018.07 [k7computing] [Weaponized.IQY: A Quest to Deliver the FlawedAmmyy RAT](http://blog.k7computing.com/2018/07/weaponized-iqy-a-quest-to-deliver-the-flawedammyy-rat/)
+- 2018.07 [proofpoint] [Parasite HTTP RAT cooks up a stew of stealthy tricks](https://www.proofpoint.com/us/threat-insight/post/parasite-http-rat-cooks-stew-stealthy-tricks)
+- 2018.07 [proofpoint] [TA505 Abusing SettingContent-ms within PDF files to Distribute FlawedAmmyy RAT](https://www.proofpoint.com/us/threat-insight/post/ta505-abusing-settingcontent-ms-within-pdf-files-distribute-flawedammyy-rat)
+- 2018.07 [welivesecurity] [Vermin one of three RATs used to spy on Ukrainian government institutions](https://www.welivesecurity.com/2018/07/17/deep-dive-vermin-rathole/)
+- 2018.07 [myonlinesecurity] [Fake DHL “Alert! Shipment Notification” delivers Remcos RAT](https://myonlinesecurity.co.uk/fake-dhl-alert-shipment-notification-delivers-remcos-rat/)
+- 2018.07 [360] [针对一个远控木马Gh0st RAT样本的初始化分析](https://www.anquanke.com/post/id/150098/)
+- 2018.07 [pentesttoolz] [EvilOSX – Evil Remote Administration Tool (RAT) for macOS/OS X – Kali Linux 2018.2](https://pentesttoolz.com/2018/07/04/evilosx-evil-remote-administration-tool-rat-for-macos-os-x-kali-linux-2018-2/)
+- 2018.06 [heimdalsecurity] [Security Alert: New Spam Campaign Delivers Flawed Ammyy RAT to Infect Victims’ Computers](https://heimdalsecurity.com/blog/security-alert-flawed-ammyy-rat/)
+- 2018.06 [hispasec] [HeroRat, otro RAT para Android que utiliza Telegram como C&C](https://unaaldia.hispasec.com/2018/06/herorat-otro-rat-para-android-que.html)
+- 2018.06 [welivesecurity] [HeroRat: The new kid on the block of Android RATs](https://www.welivesecurity.com/2018/06/18/new-telegram-abusing-android-rat/)
+- 2018.06 [n0where] [Pure python post-exploitation RAT for macOS & OSX: EvilOSX](https://n0where.net/pure-python-post-exploitation-rat-for-macos-osx-evilosx)
+- 2018.05 [talosintelligence] [NavRAT Uses US-North Korea Summit As Decoy For Attacks In South Korea](https://blog.talosintelligence.com/2018/05/navrat.html)
+- 2018.05 [myonlinesecurity] [Necurs delivering Flawed Ammy RAT via IQY Excel Web Query files](https://myonlinesecurity.co.uk/necurs-delivering-flawed-ammy-rat-via-iqy-excel-web-query-files/)
+- 2018.05 [freebuf] [被黑的Drupal网站被用来挖矿，传播远控，发送诈骗邮件](http://www.freebuf.com/articles/web/172563.html)
+- 2018.05 [freebuf] [解码Gh0st RAT变种中的网络数据](http://www.freebuf.com/articles/network/170636.html)
+- 2018.05 [fortinet] [New Remcos RAT Variant is Spreading by Exploiting CVE-2017-11882](https://www.fortinet.com/blog/threat-research/new-remcos-rat-variant-is-spreading-by-exploiting-cve-2017-11882.html)
+- 2018.05 [freebuf] [神话传奇：一款通过卖号在微信群传播的远控木马](http://www.freebuf.com/articles/system/170196.html)
+- 2018.04 [myonlinesecurity] [Remcos RAT delivered by fake ” your workers are fighting” message](https://myonlinesecurity.co.uk/remcos-rat-delivered-by-fake-your-workers-are-fighting-message/)
+- 2018.04 [virusbulletin] [GravityRAT malware takes your system's temperature](https://www.virusbulletin.com/blog/2018/04/gravityrat-malware-takes-your-systems-temperature/)
+- 2018.04 [360] [神话传奇——通过卖号微信群传播的远控木马](https://www.anquanke.com/post/id/106767/)
+- 2018.04 [talosintelligence] [GravityRAT - The Two-Year Evolution Of An APT Targeting India](https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html)
+- 2018.04 [UltraHacks] [WebMonitor RAT - NO PORTFORWARD NEEDED + FREE VPN *NEW*](https://www.youtube.com/watch?v=Yg-5ZUKbd3c)
+- 2018.04 [4hou] [吃鸡辅助远控木马分析](http://www.4hou.com/system/11194.html)
+- 2018.04 [freebuf] [吃鸡辅助远控木马分析](http://www.freebuf.com/articles/paper/169504.html)
+- 2018.04 [myonlinesecurity] [Fake  PAYMENT CONFIRMATION emails deliver Nanocore RAT](https://myonlinesecurity.co.uk/fake-payment-confirmation-emails-deliver-nanocore-rat/)
+- 2018.04 [myonlinesecurity] [Nanocore Rat delivered via fake order emails](https://myonlinesecurity.co.uk/nanocore-rat-delivered-via-fake-order-emails/)
+- 2018.04 [myonlinesecurity] [Remcos RAT delivered via fake CCICM international debt recovery service](https://myonlinesecurity.co.uk/remcos-rat-delivered-via-fake-ccicm-international-debt-recovery-service/)
+- 2018.04 [360] [吃鸡辅助远控木马分析](https://www.anquanke.com/post/id/105670/)
+- 2018.04 [pentesttoolz] [Parat – Undetectable Python Payloads – Remote Administration Tool – Kali Linux 2018.1](https://pentesttoolz.com/2018/04/19/parat-undetectable-python-payloads-remote-administration-tool-kali-linux-2018-1/)
+- 2018.04 [trendmicro] [XTRAT and DUNIHI Backdoors Bundled with Adwind in Spam Mails](https://blog.trendmicro.com/trendlabs-security-intelligence/xtrat-and-dunihi-backdoors-bundled-with-adwind-in-spam-mails/)
+- 2018.04 [4hou] [利用Digital Ocean构建远控基础设施](http://www.4hou.com/technology/11107.html)
+- 2018.04 [flashpoint] [RAT Gone Rogue: Meet ARS VBS Loader](https://www.flashpoint-intel.com/blog/meet-ars-vbs-loader/)
+- 2018.04 [lookout] [mAPT ViperRAT Found in Google Play](https://blog.lookout.com/viperrat-google-play)
+- 2018.04 [myonlinesecurity] [Fake Payment recovery email spoofing CCICM international debt recovery service delivers Remcos rat via  Microsoft Equation Editor Exploits](https://myonlinesecurity.co.uk/fake-payment-recovery-email-spoofing-ccicm-international-debt-recovery-service-delivers-remcos-rat-via-microsoft-equation-editor-exploits/)
+- 2018.04 [paloaltonetworks] [Say “Cheese”: WebMonitor RAT Comes with C2-as-a-Servic](https://unit42.paloaltonetworks.com/unit42-say-cheese-webmonitor-rat-comes-c2-service-c2aas/)
+- 2018.04 [ensilo] [enSilo Blocks New Variant of Adwind RAT](https://blog.ensilo.com/ensilo-blocks-new-variant-of-adwind-rat)
+- 2018.04 [freebuf] [DELPHI黑客编程（三）：简单远控原理实现](http://www.freebuf.com/articles/system/166876.html)
+- 2018.04 [myonlinesecurity] [Nanocore RAT delivered by fake order malspam](https://myonlinesecurity.co.uk/nanocore-rat-delivered-by-fake-order-malspam/)
+- 2018.04 [freebuf] [基于SYLK文件传播Orcus远控木马样本分析](http://www.freebuf.com/articles/system/167141.html)
+- 2018.04 [tencent] [基于SYLK文件传播Orcus远控木马样本分析](https://s.tencent.com/research/report/454.html)
+- 2018.04 [UltraHacks] [njRAT v0.7 | Tutorial | www.ultrahacks.org | Ultra Hacks](https://www.youtube.com/watch?v=qvURwIAzGo4)
+- 2018.04 [4hou] [对愈加流行的Qrypter RAT运作情况进行分析](http://www.4hou.com/web/10902.html)
+- 2018.03 [4hou] [深入分析利用宏代码传播NetwiredRC和Quasar RAT的恶意RTF文档](http://www.4hou.com/web/10909.html)
+- 2018.03 [UltraHacks] [Spynote v5.8 Android RAT | Tutorial | www.ultrahacks.org | Ultra Hacks](https://www.youtube.com/watch?v=SIqed5aL6F0)
+- 2018.03 [trustwave] [Crypter-as-a-Service Helps jRAT Fly Under The Radar](https://www.trustwave.com/Resources/SpiderLabs-Blog/Crypter-as-a-Service-Helps-jRAT-Fly-Under-The-Radar/)
+- 2018.03 [OALabs] [Analyzing Adwind / JRAT Java Malware](https://www.youtube.com/watch?v=yHrr9v0E6MQ)
+- 2018.03 [broadanalysis] [Guest Blog Post: njRat Analysis with Volatility](http://www.broadanalysis.com/2018/03/25/guest-blog-post-njrat-analysis-with-volatility/)
+- 2018.03 [hispasec] [TeleRAT, el troyano que utiliza la API de Telegram para exfiltrar información](http://unaaldia.hispasec.com/2018/03/telerat-el-troyano-que-utiliza-la-api.html)
+- 2018.03 [tencent] [新型远控木马Remcos利用CVE-2017-11882漏洞进行实时攻击](https://s.tencent.com/research/report/442.html)
+- 2018.03 [360] [针对OS X上Coldroot RAT跨平台后门的详细分析](https://www.anquanke.com/post/id/100727/)
+- 2018.03 [broadanalysis] [EiTest campaign Hoefler Text Pop-up delivers NetSupport Manager RAT](http://www.broadanalysis.com/2018/03/11/eitest-campaign-hoefler-text-pop-up-delivers-netsupport-manager-rat-5/)
+- 2018.03 [applehelpwriter] [defending against EvilOSX, a python RAT with a twist in its tail](http://applehelpwriter.com/2018/03/09/defending-against-evilosx-a-python-rat-with-a-twist-in-its-tail/)
+- 2018.03 [broadanalysis] [Fake Flash update leads to NetSupport RAT](http://www.broadanalysis.com/2018/03/08/fake-flash-update-leads-to-netsupport-rat-2/)
+- 2018.03 [broadanalysis] [EiTest campaign Hoefler Text Pop-up delivers NetSupport Manager RAT](http://www.broadanalysis.com/2018/03/08/eitest-campaign-hoefler-text-pop-up-delivers-netsupport-manager-rat-4/)
+- 2018.03 [heimdalsecurity] [Security Alert: Spam Campaign Spreads Adwind RAT variant, Targeting Computer Systems](https://heimdalsecurity.com/blog/security-alert-spam-campaign-adwind-rat-variant-targeting-systems/)
+- 2018.03 [ixiacom] [RATs, Shovels and Servers](https://www.ixiacom.com/company/blog/rats-shovels-and-servers)
+- 2018.03 [4hou] [高清无码！比鬼片还刺激！且听“诡娃”远控的这首惊魂曲](http://www.4hou.com/technology/10558.html)
+- 2018.03 [freebuf] [高清无码！比鬼片还刺激！且听“诡娃”远控的这首惊魂曲](http://www.freebuf.com/articles/system/163988.html)
+- 2018.03 [360] [胆小者慎入！比鬼片还刺激！且听“诡娃”远控的这首惊魂曲](https://www.anquanke.com/post/id/99667/)
+- 2018.03 [myonlinesecurity] [Fake order spoofed from Finchers ltd  Sankyo-Rubber delivers Remcos RAT via ACE attachments](https://myonlinesecurity.co.uk/fake-order-spoofed-from-finchers-ltd-sankyo-rubber-delivers-remcos-rat-via-ace-attachments/)
+- 2018.02 [talosintelligence] [CannibalRAT targets Brazil](http://blog.talosintelligence.com/2018/02/cannibalrat-targets-brazil.html)
+- 2018.02 [myonlinesecurity] [Fake URGENT BANK DETAILS CONFIRMATION delivers Java Adwind Qrat Jrat](https://myonlinesecurity.co.uk/fake-urgent-bank-details-confirmation-delivers-java-adwind-qrat-jrat/)
+- 2018.02 [broadanalysis] [Fake Flash update leads to NetSupport RAT](http://www.broadanalysis.com/2018/02/27/fake-flash-update-leads-to-netsupport-rat/)
+- 2018.02 [broadanalysis] [EiTest campaign Hoefler Text Pop-up delivers NetSupport Manager RAT](http://www.broadanalysis.com/2018/02/24/eitest-campaign-hoefler-text-pop-up-delivers-netsupport-manager-rat-3/)
+- 2018.02 [myonlinesecurity] [Fake DHL notification delivers some sort of Java RAT](https://myonlinesecurity.co.uk/fake-dhl-notification-delivers-some-sort-of-java-rat/)
+- 2018.02 [myonlinesecurity] [Fake TNT notification delivering Java Adwind Qrat Trojan](https://myonlinesecurity.co.uk/fake-tnt-notification-delivering-java-adwind-qrat-trojan/)
+- 2018.02 [objective] [Tearing Apart the Undetected (OSX)Coldroot RAT](https://objective-see.com/blog/blog_0x2A.html)
+- 2018.02 [trendmicro] [New AndroRAT Exploits Dated Privilege Escalation Vulnerability, Allows Permanent Rooting](https://blog.trendmicro.com/trendlabs-security-intelligence/new-androrat-exploits-dated-permanent-rooting-vulnerability-allows-privilege-escalation/)
+- 2018.02 [netskope] [ShortJSRAT leverages cloud with scriptlets](https://www.netskope.com/blog/shortjsrat-leverages-cloud-scriptlets/)
+- 2018.02 [paloaltonetworks] [RAT Trapped? LuminosityLink Falls Foul of Vermin Eradicatio](https://unit42.paloaltonetworks.com/unit42-rat-trapped-luminositylink-falls-foul-vermin-eradication-efforts/)
+- 2018.02 [rsa] [Winds of Winter - MalSpam Delivers Adwind RAT 2-1-2018](https://community.rsa.com/community/products/netwitness/blog/2018/02/05/winds-of-winter-malspam-delivers-adwind-rat-february-2018)
+- 2018.02 [360] [远控木马巧设“白加黑”陷阱：瞄准网店批发商牟取钱财](https://www.anquanke.com/post/id/97329/)
+- 2018.02 [myonlinesecurity] [Fake Swift Copy malspam via compromised sites delivering Java Adwind/ QRAT /JRAT Trojan](https://myonlinesecurity.co.uk/fake-swift-copy-malspam-via-compromised-sites-delivering-java-adwind-qrat-jrat-trojan/)
+- 2018.01 [paloaltonetworks] [VERMIN: Quasar RAT and Custom Malware Used I](https://unit42.paloaltonetworks.com/unit42-vermin-quasar-rat-custom-malware-used-ukraine/)
+- 2018.01 [broadanalysis] [EiTest campaign Hoefler Text Pop-up delivers NetSupport Manager RAT](http://www.broadanalysis.com/2018/01/25/eitest-campaign-hoefler-text-pop-up-delivers-netsupport-manager-rat-2/)
+- 2018.01 [riskiq] [Espionage Campaign Leverages Spear Phishing, RATs Against Turkish Defense Contractors](https://www.riskiq.com/blog/labs/spear-phishing-turkish-defense-contractors/)
+- 2018.01 [freebuf] [NDAY漏洞CVE-2017-11882与0Day漏洞CVE-2018-0802漏洞组合传播远控木马的样本分析](http://www.freebuf.com/vuls/160252.html)
+- 2018.01 [broadanalysis] [EiTest campaign Hoefler Text Pop-up delivers NetSupport Manager RAT](http://www.broadanalysis.com/2018/01/18/eitest-campaign-hoefler-text-pop-up-delivers-netsupport-manager-rat/)
+- 2018.01 [netskope] [Git Your RATs Here!](https://www.netskope.com/blog/git-your-rats-here/)
+- 2018.01 [redcanary] [We Smell a RAT: Detecting a Remote Access Trojan That Snuck Past a User](https://redcanary.com/blog/detecting-remote-access-trojan/)
+- 2018.01 [rsa] [Malspam delivers njRAT 1-11-2018](https://community.rsa.com/community/products/netwitness/blog/2018/01/12/malspam-delivers-njrat-1-11-2018)
+- 2018.01 [rsa] [Malspam delivers BITTER RAT 01-07-2018](https://community.rsa.com/community/products/netwitness/blog/2018/01/10/malspam-delivers-bitter-rat-07-01-2018)
+- 2018.01 [freebuf] [移动端C#病毒“东山再起”，利用知名应用通信实现远控隐私窃取](http://www.freebuf.com/articles/terminal/158503.html)
+- 2017.12 [tencent] [通过CHM文件传播的Torchwood远控木马分析](https://s.tencent.com/research/report/161.html)
+- 2017.12 [avlsec] [移动端C#病毒“东山再起”，利用知名应用通信实现远控隐私窃取](http://blog.avlsec.com/2017/12/5020/tba/)
+- 2017.12 [angelalonso] [Qrypter Java RAT using Tor](http://blog.angelalonso.es/2017/12/qrypter-java-rat-using-tor.html)
+- 2017.12 [myonlinesecurity] [Fake “Your UPS Invoice Is Ready” malspam delivers Java Adwind / Java JRAT Trojan](https://myonlinesecurity.co.uk/fake-your-ups-invoice-is-ready-malspam-delivers-java-adwind-java-jrat-trojan/)
+- 2017.12 [fortinet] [Circle of the fraud: more information about Bitcoin Orcus RAT campaign](https://blog.fortinet.com/2017/12/22/circle-of-the-fraud-more-information-about-bitcoin-orcus-rat-campaign)
+- 2017.12 [fortinet] [Circle of the fraud: more information about Bitcoin Orcus RAT campaign](https://www.fortinet.com/blog/threat-research/circle-of-the-fraud-more-information-about-bitcoin-orcus-rat-campaign.html)
+- 2017.12 [broadanalysis] [Fake Flash Player update delivers Net Support RAT](http://www.broadanalysis.com/2017/12/20/fake-flash-player-update-delivers-net-support-rat/)
+- 2017.12 [netskope] [TelegramRAT evades traditional defenses via the cloud](https://www.netskope.com/blog/telegramrat-evades-traditional-defenses-via-cloud/)
+- 2017.12 [HackerSploit] [QuasarRAT - The Best Windows RAT? - Remote Administration Tool for Windows](https://www.youtube.com/watch?v=kyueZUfSWO4)
+- 2017.12 [fortinet] [A Peculiar Case of Orcus RAT Targeting Bitcoin Investors](https://blog.fortinet.com/2017/12/07/a-peculiar-case-of-orcus-rat-targeting-bitcoin-investors)
+- 2017.12 [TechnoHacker] [RATs in a Nutshell](https://www.youtube.com/watch?v=JTfqMEfokNg)
+- 2017.12 [fortinet] [A Peculiar Case of Orcus RAT Targeting Bitcoin Investors](https://www.fortinet.com/blog/threat-research/a-peculiar-case-of-orcus-rat-targeting-bitcoin-investors.html)
+- 2017.12 [MalwareAnalysisForHedgehogs] [Malware Analysis - ROKRAT Unpacking from Injected Shellcode](https://www.youtube.com/watch?v=uoBQE5s2ba4)
+- 2017.11 [fortinet] [A Deep Dive Analysis of the FALLCHILL Remote Administration Tool](https://blog.fortinet.com/2017/11/28/a-deep-dive-analysis-of-the-fallchill-remote-administration-tool)
+- 2017.11 [paloaltonetworks] [UBoatRAT Navigates](https://unit42.paloaltonetworks.com/unit42-uboatrat-navigates-east-asia/)
+- 2017.11 [360] [基于TeamViewer的瞄准小公司的远控木马分析](https://www.anquanke.com/post/id/87336/)
+- 2017.11 [talosintelligence] [ROKRAT Reloaded](https://blog.talosintelligence.com/2017/11/ROKRAT-Reloaded.html)
+- 2017.11 [fortinet] [A Deep Dive Analysis of the FALLCHILL Remote Administration Tool](https://www.fortinet.com/blog/threat-research/a-deep-dive-analysis-of-the-fallchill-remote-administration-tool.html)
+- 2017.11 [buguroo] [New banking malware in Brazil - XPCTRA RAT ANALYSIS](https://www.buguroo.com/en/blog/bank-malware-in-brazil-xpctra-rat-analysis)
+- 2017.11 [freebuf] [通过CHM文件传播的Torchwood远控木马分析](http://www.freebuf.com/articles/system/153850.html)
+- 2017.11 [myonlinesecurity] [Fake Product Enquiry malspam delivers Nanocore RAT](https://myonlinesecurity.co.uk/fake-product-enquiry-malspam-delivers-nanocore-rat/)
+- 2017.11 [qq] [通过CHM文件传播的Torchwood远控木马分析](https://tav.qq.com/index/newsDetail/315.html)
+- 2017.11 [TechnicalMujeeb] [A-RAt exploit Tool Remote Access Android using Termux App.](https://www.youtube.com/watch?v=bzYsfe6WT7M)
+- 2017.11 [n0where] [Free, Open-Source Remote Administration Tool for Windows: QuasarRAT](https://n0where.net/free-open-source-remote-administration-tool-for-windows-quasarrat)
+- 2017.11 [ironcastle] [TA17-318A: HIDDEN COBRA – North Korean Remote Administration Tool: FALLCHILL](https://www.ironcastle.net/ta17-318a-hidden-cobra-north-korean-remote-administration-tool-fallchill/)
+- 2017.11 [securityintelligence] [Overlay RAT Malware Uses AutoIt Scripting to Bypass Antivirus Detection](https://securityintelligence.com/overlay-rat-malware-uses-autoit-scripting-to-bypass-antivirus-detection/)
+- 2017.11 [NullByte] [EvilOSX RAT - How to build a payload and start a server](https://www.youtube.com/watch?v=csqnJUxrpOw)
+- 2017.11 [TheHackerStuff] [TheFatRat - Hacking Over WAN - Embedding Payload in Original Android APK - Without Port Forwarding](https://www.youtube.com/watch?v=XLNigYZ5-fM)
+- 2017.11 [360] [Powershell Empire 绕过AV实现远控](https://www.anquanke.com/post/id/87132/)
+- 2017.10 [rsa] [Malspam Delivers Revenge RAT October-2017](https://community.rsa.com/community/products/netwitness/blog/2017/10/26/malspam-delivers-revenge-rat-october-2017)
+- 2017.10 [riskiq] [New htpRAT Gives Complete Remote Control Capabilities to Chinese Threat Actors](https://www.riskiq.com/blog/labs/htprat/)
+- 2017.10 [lookout] [JadeRAT mobile surveillanceware spikes in espionage activity](https://blog.lookout.com/mobile-threat-jaderat)
+- 2017.10 [buguroo] [RAT Protection for Banking Customers That Works](https://www.buguroo.com/en/blog/rat-protection-for-banking-customers-that-works)
+- 2017.10 [malwarebytes] [Decoy Microsoft Word document delivers malware through a RAT](https://blog.malwarebytes.com/threat-analysis/2017/10/decoy-microsoft-word-document-delivers-malware-through-rat/)
+- 2017.10 [fortinet] [PDF Phishing Leads to Nanocore RAT, Targets French Nationals](https://blog.fortinet.com/2017/10/12/pdf-phishing-leads-to-nanocore-rat-targets-french-nationals)
+- 2017.10 [rsa] [Malspam Delivers DarkComet RAT October-2017](https://community.rsa.com/community/products/netwitness/blog/2017/10/12/malspam-delivers-darkcomet-rat-october-2017)
+- 2017.10 [fortinet] [PDF Phishing Leads to Nanocore RAT, Targets French Nationals](https://www.fortinet.com/blog/threat-research/pdf-phishing-leads-to-nanocore-rat-targets-french-nationals.html)
+- 2017.10 [TechnoHacker] [Quasar RAT review](https://www.youtube.com/watch?v=fS9OTERI3hg)
+- 2017.10 [rsa] [Malspam Delivers HWorm RAT October, 2017](https://community.rsa.com/community/products/netwitness/blog/2017/10/09/malspam-delivers-hworm-rat-october2017)
+- 2017.10 [rsa] [MalSpam Delivers RAT SpyWare Quasar 9-27-2017](https://community.rsa.com/community/products/netwitness/blog/2017/10/02/malspam-delivers-rat-spyware-quasar-9-27-2017)
+- 2017.09 [malwarebreakdown] [Malvertising Leads to RIG EK and Drops Remcos RAT.](https://malwarebreakdown.com/2017/09/27/malvertising-leads-to-rig-ek/)
+- 2017.09 [freebuf] [【评论更新“木马”作者回复】“大黄蜂”远控挖矿木马分析与溯源](http://www.freebuf.com/articles/network/147301.html)
+- 2017.09 [intezer] [New Variants of Agent.BTZ/ComRAT Found: The Threat That Hit The Pentagon In 2008 Still Evolving; Part 2/2](https://www.intezer.com/new-variants-of-agent-btz-comrat-found-part-2/)
+- 2017.09 [UltraHacks] [SilentBytes RAT 1.6.3c | Multi Administration Tool!](https://www.youtube.com/watch?v=OCz1b2Xyr8c)
+- 2017.09 [freebuf] [螳螂捕蝉黄雀在后，免费散播Cobian远控工具背后的秘密](http://www.freebuf.com/news/146974.html)
+- 2017.09 [4hou] [“钓鱼”插件实战：看我如何让粗心开发者的编辑器自动变身远控](http://www.4hou.com/technology/7329.html)
+- 2017.09 [360] [Stack overflow in PlugX RAT](https://www.anquanke.com/post/id/86769/)
+- 2017.09 [trendmicro] [A360 Drive Abused to Deliver Adwind, Remcos, Netwire RATs](https://blog.trendmicro.com/trendlabs-security-intelligence/a360-drive-adwind-remcos-netwire-rats/)
+- 2017.09 [fortinet] [Rehashed RAT Used in APT Campaign Against Vietnamese Organizations](https://www.fortinet.com/blog/threat-research/rehashed-rat-used-in-apt-campaign-against-vietnamese-organizations.html)
+- 2017.09 [TechnoHacker] [Arcom RAT: Is It Worth $3000?](https://www.youtube.com/watch?v=u39nMqPoiz0)
+- 2017.08 [lookout] [Lookout discovers sophisticated xRAT malware tied to 2014 “Xsser / mRAT” surveillance campaign against Hong Kong protesters](https://blog.lookout.com/xrat-mobile-threat)
+- 2017.08 [paloaltonetworks] [Updated KHRAT Malware Used in Cambodi](https://unit42.paloaltonetworks.com/unit42-updated-khrat-malware-used-in-cambodia-attacks/)
+- 2017.08 [JackkTutorials] [How to make a HTTP RAT (#3)](https://www.youtube.com/watch?v=qPrF5Hh5hwo)
+- 2017.08 [myonlinesecurity] [Angelika Rodriguez – zales@municipiodepaute.gob.ec – Purchase Order malspam  delivers  nanocore RAT](https://myonlinesecurity.co.uk/angelika-rodriguez-zalesmunicipiodepaute-gob-ec-purchase-order-malspam-delivers-nanocore-rat/)
+- 2017.08 [freebuf] [远控木马上演白利用偷天神技：揭秘假破解工具背后的盗刷暗流](http://www.freebuf.com/articles/terminal/144590.html)
+- 2017.08 [4hou] [远控木马上演白利用偷天神技：揭秘假破解工具背后的盗刷暗流](http://www.4hou.com/technology/7302.html)
+- 2017.08 [fortinet] [A Quick Look at a New KONNI RAT Variant](https://www.fortinet.com/blog/threat-research/a-quick-look-at-a-new-konni-rat-variant.html)
+- 2017.08 [cybereason] [Cybereason creates 'vaccine' to stop Remcos RAT](https://www.cybereason.com/blog/blog-cybereason-creates-vaccine-to-stop-remcos-rat)
+- 2017.08 [n0where] [Koadic C3 COM Command & Control – JScript RAT](https://n0where.net/com-command-control-koadic)
+- 2017.08 [cylance] [Cylance vs. KONNI RAT](https://www.cylance.com/en_us/blog/cylance-vs-konni-rat.html)
+- 2017.08 [n0where] [iOS macOS Remote Administration Tool: EggShell](https://n0where.net/ios-macos-remote-administration-tool-eggshell)
+- 2017.08 [intezer] [New Variants of Agent.BTZ/ComRAT Found: The Threat That Hit The Pentagon In 2008 Still Evolving; Part 1/2](https://www.intezer.com/new-variants-of-agent-btz-comrat-found/)
+- 2017.08 [n0where] [Android Remote Administration Tool: AhMyth](https://n0where.net/android-remote-administration-tool-ahmyth)
+- 2017.08 [netskope] [Adwind RAT employs new obfuscation techniques](https://www.netskope.com/blog/adwind-rat-employs-new-obfuscation-techniques/)
+- 2017.08 [rsa] [Malspam delivers Xtreme RAT 8-1-2017](https://community.rsa.com/community/products/netwitness/blog/2017/08/02/malspam-delivers-xtreme-rat-8-1-2017)
+- 2017.07 [pentestmag] [Stitch – a Python written cross platform RAT](https://pentestmag.com/stitch-python-written-cross-platform-rat/)
+- 2017.07 [skycure] [Nasty backdoor OmniRAT is back, disguised as GhostCtrl on Android mobile devices](https://www.skycure.com/blog/nasty-backdoor-omnirat-back-disguised-ghostctrl-android-mobile-devices/)
+- 2017.07 [pentestingexperts] [Hacking Android Smart Phone Using AhMyth Android RAT](http://www.pentestingexperts.com/hacking-android-smart-phone-using-ahmyth-android-rat/)
+- 2017.07 [myonlinesecurity] [fake swift copy notification payment slip malspam with an ACE attachment delivers malware and a jrat Trojan](https://myonlinesecurity.co.uk/fake-swift-copy-notification-payment-slip-malspam-with-an-ace-attachment-delivers-malware-and-a-jrat-trojan/)
+- 2017.07 [JackkTutorials] [How to make a HTTP RAT (#2)](https://www.youtube.com/watch?v=BqwcSsMdJEI)
+- 2017.07 [rsa] [Recreating the Crime Scene - A JSRat Story](https://community.rsa.com/community/products/netwitness/blog/2017/07/13/httpscommunityrsacomblogcreate-postjspacontainertype37containerid1034draftid43558recreating-the-crime-scene-a-jsrat-story)
+- 2017.07 [ringzerolabs] [Bladabindi RAT](https://www.ringzerolabs.com/2017/07/bladabindi-rat.html)
+- 2017.07 [krebsonsecurity] [Who is the GovRAT Author and Mirai Botmaster ‘Bestbuy’?](https://krebsonsecurity.com/2017/07/who-is-the-govrat-author-and-mirai-botmaster-bestbuy/)
+- 2017.07 [JackkTutorials] [How to make a HTTP RAT (#1)](https://www.youtube.com/watch?v=whwGVk33NXA)
+- 2017.06 [freebuf] [白利用的集大成者：新型远控木马上演移形换影大法](http://www.freebuf.com/articles/system/138164.html)
+- 2017.06 [pediy] [[原创]一个远控木马的行为分析](https://bbs.pediy.com/thread-218739.htm)
+- 2017.06 [ColinHardy] [JavaScript that drops a RAT - Reverse Engineer it like a pro](https://www.youtube.com/watch?v=qzGLCqW_wrM)
+- 2017.06 [4hou] [白利用的集大成者：新型远控木马上演移形换影大法](http://www.4hou.com/info/news/5742.html)
+- 2017.06 [360] [白利用的集大成者：新型远控木马上演移形换影大法](https://www.anquanke.com/post/id/86311/)
+- 2017.06 [alienvault] [A RAT that Tweets: New ROKRAT Malware Hides behind Twitter, Amazon, and Hulu Traffic](https://www.alienvault.com/blogs/security-essentials/a-rat-that-tweets-new-rokrat-malware-hides-behind-twitter-amazon-and-hulu-traffic)
+- 2017.06 [freebuf] [Metasploit实验：制作免杀payload+对任意“外网”主机的远控](http://www.freebuf.com/sectool/136736.html)
+- 2017.06 [cylance] [Cylance vs. FF-Rat Malware](https://www.cylance.com/en_us/blog/cylance-vs-ff-rat-malware.html)
+- 2017.06 [cylance] [Threat Spotlight: Breaking Down FF-Rat Malware](https://www.cylance.com/en_us/blog/breaking-down-ff-rat-malware.html)
+- 2017.06 [alienvault] [MacSpy: OS X RAT as a Service](https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service)
+- 2017.05 [TechnoHacker] [How to check if you're infected with a RAT in 10 seconds](https://www.youtube.com/watch?v=ZWcTAiyZrEI)
+- 2017.05 [UltraHacks] [How to setup LuminosityLink RAT with nVPN | PORTFORWARD FIX!!!](https://www.youtube.com/watch?v=AiiQNtJfgBc)
+- 2017.05 [netskope] [NanocoreRAT delivery via cloud storage apps shifts from .uue to .r11](https://www.netskope.com/blog/nanocorerat-delivery-via-cloud-storage-apps-shifts-uue-r11/)
+- 2017.05 [umbrella] [The Weather Report: Seamless Campaign, LuminosityLink RAT, and OG-Miner!](https://umbrella.cisco.com:443/blog/2017/05/24/weather-report-seamless-campaign-luminositylink-rat-og-miner/)
+- 2017.05 [freebuf] [远控木马中的VIP：盗刷网购账户购买虚拟礼品卡](http://www.freebuf.com/articles/system/135081.html)
+- 2017.05 [pediy] [[原创]从0分析一款经典的感染型远控木马](https://bbs.pediy.com/thread-217755.htm)
+- 2017.05 [4hou] [远控木马中的VIP：盗刷网购账户购买虚拟礼品卡](http://www.4hou.com/info/observation/4847.html)
+- 2017.05 [sec] [远控木马中的VIP：盗刷网购账户购买虚拟礼品卡](https://www.sec-un.org/%e8%bf%9c%e6%8e%a7%e6%9c%a8%e9%a9%ac%e4%b8%ad%e7%9a%84vip%ef%bc%9a%e7%9b%97%e5%88%b7%e7%bd%91%e8%b4%ad%e8%b4%a6%e6%88%b7%e8%b4%ad%e4%b9%b0%e8%99%9a%e6%8b%9f%e7%a4%bc%e5%93%81%e5%8d%a1/)
+- 2017.05 [360] [远控木马中的VIP：盗刷网购账户购买虚拟礼品卡](https://www.anquanke.com/post/id/86128/)
+- 2017.05 [UltraHacks] [Imminent Monitor RAT setup & New update review 2017](https://www.youtube.com/watch?v=Mwp-VbaYM0w)
+- 2017.05 [TechnoHacker] [How to spread your RAT](https://www.youtube.com/watch?v=bI3AngFahb4)
+- 2017.05 [esecurityplanet] [Shodan Partners with Recorded Future to Detect Botnets and RATs](https://www.esecurityplanet.com/hackers/shodan-partners-with-recorded-future-to-detect-botnets-and-rats.html)
+- 2017.04 [alienvault] [The Felismus RAT: Powerful Threat, Mysterious Purpose](https://www.alienvault.com/blogs/security-essentials/the-felismus-rat-powerful-threat-mysterious-purpose)
+- 2017.04 [freebuf] [当心，安卓远控（spynote）升级了……](http://www.freebuf.com/sectool/132023.html)
+- 2017.04 [paloaltonetworks] [Cardinal RAT Active for Over](https://unit42.paloaltonetworks.com/unit42-cardinal-rat-active-two-years/)
+- 2017.04 [TechnoHacker] [Netwire RAT Review](https://www.youtube.com/watch?v=jRCBTmBIT8g)
+- 2017.04 [securelist] [ATMitch: remote administration of ATMs](https://securelist.com/atmitch-remote-administration-of-atms/77918/)
+- 2017.03 [TechnoHacker] [What's the difference between http botnets and RATs?](https://www.youtube.com/watch?v=G1J1xsZAASg)
+- 2017.03 [paloaltonetworks] [Trochilus and New MoonWind RATs Used In Attack Against Thai Orga](https://unit42.paloaltonetworks.com/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/)
+- 2017.03 [Fig] [AMQ Fireblight Strat (Miphas Grace + attack buff)](https://www.youtube.com/watch?v=_BWxCT8DadA)
+- 2017.03 [myonlinesecurity] [Request for 1st new order proforma invoice malspam delivers LuminosityLink RAT](https://myonlinesecurity.co.uk/request-for-1st-new-order-proforma-invoice-malspam-delivers-luminositylink-rat/)
+- 2017.03 [fireeye] [WMImplant – A WMI Based Agentless Post-Exploitation RAT Developed in PowerShell](https://www.fireeye.com/blog/threat-research/2017/03/wmimplant_a_wmi_ba.html)
+- 2017.03 [trendmicro] [MajikPOS Combines PoS Malware and RATs to Pull Off its Malicious Tricks](https://blog.trendmicro.com/trendlabs-security-intelligence/majikpos-combines-pos-malware-and-rats/)
+- 2017.03 [4hou] [Proton RAT利用0day漏洞升级新变种，最低1200美元可出售](http://www.4hou.com/info/news/3846.html)
+- 2017.03 [freebuf] [Adwind RAT针对企业攻击，目标超过100个国家和地区](http://www.freebuf.com/news/128021.html)
+- 2017.02 [UltraHacks] [SilentBytes RAT [beta] Windows 10 || PROMOTION ||](https://www.youtube.com/watch?v=JOvtLWFPaeY)
+- 2017.02 [UltraHacks] [SilentBytes RAT Linux Ubuntu || PROMOTION ||](https://www.youtube.com/watch?v=X0slzydICEg)
+- 2017.02 [UltraHacks] [SilentBytes RAT 1.1 [BETA] Mac OS X || PROMOTION ||](https://www.youtube.com/watch?v=GVdDkNrD0hU)
+- 2017.02 [n0where] [Open Source Cross Platform RAT: Pupy](https://n0where.net/open-source-cross-platform-rat-pupy)
+- 2017.02 [fortinet] [REMCOS: A New RAT In The Wild](https://www.fortinet.com/blog/threat-research/remcos-a-new-rat-in-the-wild-2.html)
+- 2017.02 [n0where] [Python Remote Administration Tool: Stitch](https://n0where.net/python-remote-administration-tool-stitch)
+- 2017.02 [talosintelligence] [Go RAT, Go! AthenaGo points “TorWords” Portugal](https://blog.talosintelligence.com/2017/02/athena-go.html)
+- 2017.02 [netskope] [Decoys, RATs, and the Cloud: The growing trend](https://www.netskope.com/blog/decoys-rats-cloud-the-growing-trend/)
+- 2017.01 [paloaltonetworks] [Downeks and Quasar RAT Used in Recent Targeted Attacks Against Go](https://unit42.paloaltonetworks.com/unit42-downeks-and-quasar-rat-used-in-recent-targeted-attacks-against-governments/)
+- 2017.01 [malwarebytes] [Mobile Menace Monday: AndroRAT Evolved](https://blog.malwarebytes.com/cybercrime/2017/01/mobile-menace-monday-androrat-evolved/)
+- 2017.01 [malwarebytes] [From a fake wallet to a Java RAT](https://blog.malwarebytes.com/cybercrime/2017/01/from-a-fake-wallet-to-a-java-rat/)
+- 2017.01 [codemetrix] [Decrypting Adwind jRAT jBifrost trojan](https://codemetrix.net/decrypting-adwind-jrat-jbifrost-trojan/)
+- 2016.12 [TheHackerStuff] [Kali Linux - TheFatRat - Creating an Undetectable Backdoor - Bypass all AntiVirus](https://www.youtube.com/watch?v=uwMRuQBVS7k)
+- 2016.12 [thalesesecurity] [Remote Administration: Value, Security and Convenience](https://blog.thalesesecurity.com/2016/12/21/remote-administration-value-security-and-convenience/)
+- 2016.12 [TechnoHacker] [How to remotely execute a RAT on someone's PC](https://www.youtube.com/watch?v=5X9su6U8wyo)
+- 2016.12 [cyber] [The Kings In Your Castle Part 4 – Packers, Crypters and a Pack of RATs](https://cyber.wtf/2016/12/05/the-kings-in-your-castle-part-4-packers-crypters-and-a-pack-of-rats/)
+- 2016.11 [] [Linux远控分析](http://blogs.360.cn/360safe/2016/11/18/linuxremotecontrol/)
+- 2016.11 [] [Linux远控分析](http://blogs.360.cn/blog/linuxremotecontrol/)
+- 2016.11 [f] [A RAT For The US Presidential Elections](https://labsblog.f-secure.com/2016/11/10/a-rat-for-the-us-presidential-elections/)
+- 2016.11 [fidelissecurity] [Down the H-W0rm Hole with Houdini's RAT](https://www.fidelissecurity.com/threatgeek/2016/11/down-h-w0rm-hole-houdinis-rat)
+- 2016.10 [malwarebytes] [Get your RAT on Pastebin](https://blog.malwarebytes.com/cybercrime/2016/10/get-your-rat-on-pastebin/)
+- 2016.10 [sentinelone] [GovRAT is Not New](https://www.sentinelone.com/blog/govrat-remote-administration-tool-targets-us-government-employees/)
+- 2016.10 [sans] [Malspam delivers NanoCore RAT](https://isc.sans.edu/forums/diary/Malspam+delivers+NanoCore+RAT/21615/)
+- 2016.10 [UltraHacks] [[$25] Imment Monitor RAT setup](https://www.youtube.com/watch?v=TCDxayI8e2U)
+- 2016.09 [freebuf] [远控盗号木马伪装成850Game作恶](http://www.freebuf.com/articles/system/115194.html)
+- 2016.09 [jimwilbur] [DroidJack – A Quick Look at an Android RAT](https://www.jimwilbur.com/2016/09/droidjack/)
+- 2016.09 [360] [远控盗号木马伪装成850Game作恶](https://www.anquanke.com/post/id/84619/)
+- 2016.09 [countercept] [Do you smell a rat?](https://countercept.com/blog/do-you-smell-a-rat/)
+- 2016.09 [countercept] [Do you smell a rat?](https://countercept.com/our-thinking/do-you-smell-a-rat/)
+- 2016.09 [freebuf] [You dirty RAT：地下网络犯罪世界的“黑吃黑”](http://www.freebuf.com/articles/system/113906.html)
+- 2016.09 [trustlook] [Pokémon Go bundles with Malicious Remote Administration Tool DroidJack](https://blog.trustlook.com/2016/09/02/pokemon-go-bundles-with-malicious-remote-administration-tool-droidjack/)
+- 2016.08 [fortinet] [German Speakers Targeted by SPAM Leading to Ozone RAT](https://www.fortinet.com/blog/threat-research/german-speakers-targeted-by-spam-leading-to-ozone-rat.html)
+- 2016.08 [trustlook] [Trustlook Discovers a Remote Administration Tool (RAT) Android Malware](https://blog.trustlook.com/2016/08/22/trustlook-discovers-a-remote-administration-tool-rat-android-malware/)
+- 2016.08 [id] [XRat, Team, Corporacao](http://id-ransomware.blogspot.com/2016/08/team-xrat-ransomware.html)
+- 2016.08 [fortinet] [JBifrost: Yet Another Incarnation of the Adwind RAT](https://www.fortinet.com/blog/threat-research/jbifrost-yet-another-incarnation-of-the-adwind-rat.html)
+- 2016.08 [radare] [Retrieving configuration of a Remote Administration Tool (Malware) with radare2 statically](http://radare.today/posts/malware-static-analysis/)
+- 2016.08 [radare] [Retrieving configuration of a Remote Administration Tool (Malware) with radare2 statically](https://radareorg.github.io/blog/posts/malware-static-analysis/)
+- 2016.08 [deniable] [Cracking Orcus RAT](http://deniable.org/cracking-orcus-rat/)
+- 2016.08 [deniable] [Cracking Orcus RAT](http://blog.deniable.org/blog/2016/08/09/cracking-orcus-rat/)
+- 2016.08 [deniable] [Cracking Orcus RAT](http://deniable.org/reversing/cracking-orcus-rat)
+- 2016.08 [MalwareAnalysisForHedgehogs] [Malware Analysis - Unpacking njRAT Protected by Confuser v.1.9 and others](https://www.youtube.com/watch?v=92GDWqCK1rQ)
+- 2016.07 [malwarenailed] [Luminosity RAT - Re-purposed](http://malwarenailed.blogspot.com/2016/07/luminosity-rat-re-purposed.html)
+- 2016.07 [360] [披合法外衣的远控木马——Game564深入分析](https://www.anquanke.com/post/id/84267/)
+- 2016.07 [krebsonsecurity] [Canadian Man Behind Popular ‘Orcus RAT’](https://krebsonsecurity.com/2016/07/canadian-man-is-author-of-popular-orcus-rat/)
+- 2016.07 [fidelissecurity] [Chasing Down RATs with Barncat](https://www.fidelissecurity.com/threatgeek/2016/07/chasing-down-rats-barncat)
+- 2016.07 [shaaguunz] [Omnirat save us](https://shaaguunz.blogspot.com/2016/07/omnirat-save-us.html)
+- 2016.07 [heimdalsecurity] [Security Alert: Adwind RAT Used in Targeted Attacks with Zero AV Detection](https://heimdalsecurity.com/blog/security-alert-adwind-rat-targeted-attacks-zero-av-detection/)
+- 2016.07 [360] [H-WORM：简单而活跃的远控木马](https://www.anquanke.com/post/id/84132/)
+- 2016.06 [cybereason] [Permission to Execute: The Incident of the Signed and Verified RAT](https://www.cybereason.com/blog/permission-to-execute-the-incident-of-the-signed-and-verified-rat)
+- 2016.06 [8090] [一款用于定向攻击的JavaScript远控木马分析](http://www.8090-sec.com/archives/2682)
+- 2016.06 [hackingarticles] [HTTP RAT Tutorial for Beginners](http://www.hackingarticles.in/http-rat-tutorial-beginners/)
+- 2016.06 [cysinfo] [Hunting and Decrypting Communications of Gh0st RAT in Memory](https://cysinfo.com/hunting-and-decrypting-communications-of-gh0st-rat-in-memory/)
+- 2016.06 [cysinfo] [Hunting APT RAT 9002 In Memory Using Volatility Plugin](https://cysinfo.com/hunting-apt-rat-9002-in-memory-using-volatility-plugin/)
+- 2016.06 [f] [Qarallax RAT: Spying On US Visa Applicants](https://labsblog.f-secure.com/2016/06/07/qarallax-rat-spying-on-us-visa-applicants/)
+- 2016.06 [qq] [远控木马利用Windows系统文件漏洞展开攻击](https://tav.qq.com/index/newsDetail/246.html)
+- 2016.06 [] [运用最广的远控-TeamViewer被黑了](http://www.91ri.org/15890.html)
+- 2016.06 [samvartaka] [Dead RATs: Exploiting malware C2 servers](http://samvartaka.github.io/exploitation/2016/06/03/dead-rats-exploiting-malware)
+- 2016.05 [freebuf] [深度：远控木马Posion Ivy开始肆虐缅甸和其它亚洲国家](http://www.freebuf.com/articles/paper/104819.html)
+- 2016.05 [trendmicro] [Lost Door RAT: Accessible, Customizable Attack Tool](https://blog.trendmicro.com/trendlabs-security-intelligence/lost-door-rat-accessible-customizable-attack-tool/)
+- 2016.04 [paloaltonetworks] [New Poison Ivy RAT Variant Targets Hong Kong Pro-Democracy](https://unit42.paloaltonetworks.com/unit42-new-poison-ivy-rat-variant-targets-hong-kong-pro-democracy-activists/)
+- 2016.04 [sentinelone] [Teaching an old RAT new tricks](https://www.sentinelone.com/blog/teaching-an-old-rat-new-tricks/)
+- 2016.04 [itsjack] [RAT Threat Intelligence – A Very Simple Manual Technique](https://itsjack.cc/blog/2016/04/rat-threat-intelligence-a-very-simple-manual-technique/)
+- 2016.03 [TechnoHacker] [How to port forward for any program and how to setup a DNS for RATs](https://www.youtube.com/watch?v=4KMmuq0UuLQ)
+- 2016.03 [malwarebytes] [Latest Steam Malware Shows Signs of RAT Activity](https://blog.malwarebytes.com/cybercrime/2016/03/latest-steam-malware-shows-sign-of-rat-activity/)
+- 2016.03 [malwarebytes] [This Steam Scam is a Rat Race](https://blog.malwarebytes.com/cybercrime/2016/03/this-steam-scam-is-a-rat-race/)
+- 2016.03 [itsjack] [Imminent Monitor 4 RAT Analysis – Further Into The RAT](https://itsjack.cc/blog/2016/03/imminent-monitor-4-rat-analysis-further-into-the-rat/)
+- 2016.02 [hackingarticles] [Hack Remote PC using Darkcomet RAT with Metasploit](http://www.hackingarticles.in/hack-remote-pc-using-darkcomet-rat-with-metasploit/)
+- 2016.02 [TechnoHacker] [How to setup Blackshades RAT [Voice Tutorial] [download link]](https://www.youtube.com/watch?v=PLYe1JwCoA8)
+- 2016.02 [securelist] [Expert: cross-platform Adwind RAT](https://securelist.com/expert-cross-platform-adwind-rat/73773/)
+- 2016.02 [TechnoHacker] [How to get rid of a RAT [Very in depth]](https://www.youtube.com/watch?v=dqnPIXc1JPQ)
+- 2016.02 [paloaltonetworks] [NanoCoreRAT Behind an Increase in Tax-Themed Phishin](https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/)
+- 2016.02 [kaspersky] [The wind that smells like RAT: The story of Adwind MaaS](https://www.kaspersky.com/blog/adwind-rat-2/15126/)
+- 2016.02 [brindi] [Advanced Techniques for Detecting RAT Screen Control](http://brindi.si/g/elsewhere/advanced-techniques-for-detecting-rat-screen-control.html)
+- 2016.02 [mindedsecurity] [RAT WARS 2.0: Advanced Techniques for Detecting RAT Screen Control](http://blog.mindedsecurity.com/2016/02/rat-wars-20-advanced-techniques-for.html)
+- 2016.01 [fidelissecurity] [Introducing Hi-Zor RAT](https://www.fidelissecurity.com/threatgeek/2016/01/introducing-hi-zor-rat)
+- 2016.01 [alienvault] [Trochilus RAT: Invading your Sandbox](https://www.alienvault.com/blogs/security-essentials/trochilus-rat-invading-your-sandbox)
+- 2016.01 [itsjack] [Imminent Monitor 4 RAT Analysis – A Glance](https://itsjack.cc/blog/2016/01/imminent-monitor-4-rat-analysis-a-glance/)
+- 2016.01 [freebuf] [“暗影大盗”远控木马分析报告](http://www.freebuf.com/articles/database/94054.html)
+- 2016.01 [] [Linux远控分析](http://blogs.360.cn/post/linuxremotecontrol.html)
+- 2016.01 [ensilo] [Cyber-Security in 120 Secs: 0-days, and a new RAT targeting APJ](https://blog.ensilo.com/cyber-security-in-120-secs-0-days-and-a-new-rat-targeting-apj)
+- 2016.01 [lallouslab] [Honey, I want a 3 carat ring for our engagement…what a sham!](http://lallouslab.net/2016/01/16/honey-i-want-a-3-carat-ring-for-our-engagement-what-a-sham/)
+- 2016.01 [TechnoHacker] [How to use all of Xtreme RAT's features](https://www.youtube.com/watch?v=9eejCZQCmZo)
+- 2016.01 [sensecy] [Is There A New njRAT Out There?](https://blog.sensecy.com/2016/01/05/is-there-a-new-njrat-out-there/)
+- 2016.01 [freebuf] [一次对JSocket远控的分析](http://www.freebuf.com/articles/terminal/92108.html)
+- 2015.12 [paloaltonetworks] [BBSRAT Attacks Targeting Russian Organizations Linked to Roam](https://unit42.paloaltonetworks.com/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/)
+- 2015.11 [dynamoo] [Malware spam: "Sales Invoice OP/I599241 For ANDSTRAT (NO.355) LTD" / "orders@kidd-uk.com"](https://blog.dynamoo.com/2015/11/malware-spam-sales-invoice-opi599241.html)
+- 2015.11 [360] [“大灰狼”远控木马幕后真凶深入挖掘](https://www.anquanke.com/post/id/83006/)
+- 2015.11 [TechnoHacker] [How to setup DarkComet RAT [Voice Tutorial] [Download Link]](https://www.youtube.com/watch?v=Lqcg7gcKCfo)
+- 2015.11 [rsa] [Detecting GlassRAT using Security Analytics and ECAT](https://community.rsa.com/community/products/netwitness/blog/2015/11/25/detecting-glassrat-using-security-analytics-and-ecat)
+- 2015.11 [alienvault] [KilerRat: Taking over where Njrat remote access trojan left off](https://www.alienvault.com/blogs/labs-research/kilerrat-taking-over-where-njrat-remote-access-trojan-left-off)
+- 2015.11 [freebuf] [BT天堂网站挂马事件后续：“大灰狼”远控木马分析及幕后真凶调查](http://www.freebuf.com/articles/web/84374.html)
+- 2015.11 [360] [“大灰狼”远控木马分析及幕后真凶调查](https://www.anquanke.com/post/id/82865/)
+- 2015.11 [f] [Halloween RAT: NanoCore Served Via PageFair Service](https://labsblog.f-secure.com/2015/11/02/halloween-rat-nanocore-served-via-pagefair-service/)
+- 2015.10 [threatmetrix] [How Contextual Fraud Prevention Can Turn Banks into RAT (Remote Access Trojan) Catchers](https://www.threatmetrix.com/digital-identity-blog/fraud-prevention/remote-access-trojan-rat-catchers/)
+- 2015.10 [deepsec] [DeepSec Talk: Got RATs? Enter Barn Cat (OSint)](http://blog.deepsec.net/deepsec-talk-got-rats-enter-barn-cat-osint/)
+- 2015.10 [360] [另类远控：木马借道商业级远控软件的隐藏运行实现](https://www.anquanke.com/post/id/82748/)
+- 2015.10 [freebuf] [另类远控：木马借道商业级远控软件的隐藏运行实现](http://www.freebuf.com/articles/82240.html)
+- 2015.10 [hackingarticles] [Hack Android Devices using Omni RAT](http://www.hackingarticles.in/hack-android-devices-using-omni-rat/)
+- 2015.10 [hackingarticles] [Hack Remote PC using Pupy – Remote Administration Tool](http://www.hackingarticles.in/hack-remote-pc-using-pupy-remote-administration-tool/)
+- 2015.09 [trustwave] [Quaverse RAT: Remote-Access-as-a-Service](https://www.trustwave.com/Resources/SpiderLabs-Blog/Quaverse-RAT--Remote-Access-as-a-Service/)
+- 2015.09 [kaspersky] [A layman’s dictionary: RAT](https://www.kaspersky.com/blog/a-laymans-dictionary-rat/4487/)
+- 2015.08 [sentinelone] [The 7 ‘Most Common’ RATS In Use Today](https://www.sentinelone.com/blog/the-7-most-common-rats-in-use-today/)
+- 2015.08 [rsa] [Detecting XtremeRAT variants using Security Analytics](https://community.rsa.com/community/products/netwitness/blog/2015/08/26/detecting-xtremerat-using-security-analytics)
+- 2015.08 [paloaltonetworks] [RTF Exploit Installs Italian RAT:](https://unit42.paloaltonetworks.com/rtf-exploit-installs-italian-rat-uwarrior/)
+- 2015.08 [fortinet] [The Curious Case Of The Document Exploiting An Unknown Vulnerability – Part 2: RATs, Hackers and Rihanna](https://www.fortinet.com/blog/threat-research/the-curious-case-of-the-document-exploiting-an-unknown-vulnerability-part-2-rats-hackers-and-rihanna.html)
+- 2015.08 [duo] [You Built a Better Mousetrap? They Built Better RATs](https://duo.com/blog/you-built-a-better-mousetrap-they-built-better-rats)
+- 2015.08 [alienvault] [FF-RAT Uses Stealth Tactics to Evade Endpoint Detection](https://www.alienvault.com/blogs/security-essentials/ff-rat-uses-stealth-tactics-to-evade-endpoint-detection)
+- 2015.08 [virusbulletin] [Paper: Life after the apocalypse for the Middle Eastern NJRat campaign](https://www.virusbulletin.com/blog/2015/08/paper-life-after-apocalypse-middle-eastern-njrat-campaign/)
+- 2015.08 [securityfuse] [Omni RAT which can turn your android phone into a hacking machine](http://blog.securityfuse.com/2015/08/omni-rat-which-can-turn-your-android.html)
+- 2015.07 [freebuf] [格盘也没用：Hacking Team使用UEFI BIOS Rootkit将远控长驻操作系统](http://www.freebuf.com/news/72482.html)
+- 2015.07 [freebuf] [揭秘：Hacking Team远控窃听程序（RCS）的全球热销之路](http://www.freebuf.com/news/72423.html)
+- 2015.07 [bromium] [Government Grade Malware: a Look at HackingTeam’s RAT](https://blogs.bromium.com/government-grade-malware-a-look-at-hackingteams-rat/)
+- 2015.07 [talosintelligence] [Ding! Your RAT has been delivered](https://blog.talosintelligence.com/2015/07/ding-your-rat-has-been-delivered.html)
+- 2015.06 [guidancesoftware] [The OPM Hack: I Smell a RAT](https://www.guidancesoftware.com/blog/security/2015/06/09/the-opm-hack-i-smell-rat)
+- 2015.05 [freebuf] [移花接木大法：新型“白利用”华晨远控木马分析](http://www.freebuf.com/articles/system/68469.html)
+- 2015.05 [securelist] [Grabit and the RATs](https://securelist.com/grabit-and-the-rats/70087/)
+- 2015.05 [] [移花接木大法：新型“白利用”华晨远控木马分析](http://blogs.360.cn/360safe/2015/05/27/white-used/)
+- 2015.05 [] [移花接木大法：新型“白利用”华晨远控木马分析](http://blogs.360.cn/blog/white-used/)
+- 2015.04 [freebuf] [控制指令高达二十多种：远控木马Dendoroid.B分析报告](http://www.freebuf.com/articles/terminal/65611.html)
+- 2015.04 [ensilo] [NanoCore RAT: It’s Not 100% Original](https://blog.ensilo.com/nanocore-rat-not-100-original)
+- 2015.04 [freebuf] [恶意代码分析：台湾官方版英雄联盟LoL和流亡黯道PoE被植入远控工具PlugX](http://www.freebuf.com/vuls/63151.html)
+- 2015.03 [heimdalsecurity] [Security Alert: Infamous DarkComet RAT Used In Spear Phishing Campaigns](https://heimdalsecurity.com/blog/darkcomet-rat-phishing-campaigns/)
+- 2015.03 [b0n1] [Remote administration trojan using Baidu Cloud Push service](http://b0n1.blogspot.com/2015/03/remote-administration-trojan-using.html)
+- 2015.03 [b0n1] [Remote administration trojan using Baidu Cloud Push service](https://lukasstefanko.com/2015/03/remote-administration-trojan-using-baidu-cloud-push-service.html)
+- 2015.03 [freebuf] [剖析Smack技术远控木马](http://www.freebuf.com/articles/terminal/60840.html)
+- 2015.03 [avlsec] [Smack技术远控木马](http://blog.avlsec.com/2015/03/2193/smack-remote-control/)
+- 2015.03 [] [Smack技术远控木马工作分析文](http://www.91ri.org/12517.html)
+- 2015.02 [mcafee] [What is a Remote Administration Tool (RAT)?](https://securingtomorrow.mcafee.com/consumer/identity-protection/what-is-rat/)
+- 2015.01 [] [移花接木大法：新型“白利用”华晨远控木马分析](http://blogs.360.cn/post/white-used.html)
+- 2015.01 [trendmicro] [New RATs Emerge from Leaked Njw0rm Source Code](https://blog.trendmicro.com/trendlabs-security-intelligence/new-rats-emerge-from-leaked-njw0rm-source-code/)
+- 2015.01 [] [远控木马Dendoroid.B分析报告](http://blogs.360.cn/post/analysis_of_dendoroid_b.html)
+- 2014.12 [sans] [Flushing out the Crypto Rats - Finding "Bad Encryption" on your Network](https://isc.sans.edu/forums/diary/Flushing+out+the+Crypto+Rats+Finding+Bad+Encryption+on+your+Network/19009/)
+- 2014.11 [checkpoint] [Mobile Security Weekly: Android mRATs, Paid Apps Hacked, Whatsapp Talks Privacy | Check Point Software Blog](https://blog.checkpoint.com/2014/11/21/mobile-security-weekly-android-mrats-paid-apps-hacked-whatsapp-talks-privacy/)
+- 2014.10 [freebuf] [针对VBS远控木马的技术分析](http://www.freebuf.com/articles/web/48706.html)
+- 2014.10 [] [VBS远控木马](http://blogs.360.cn/360safe/2014/10/24/vbs_cc_trojan/)
+- 2014.10 [] [VBS远控木马](http://blogs.360.cn/blog/vbs_cc_trojan-2/)
+- 2014.10 [sans] [CSAM: Scary ports and firewall remote administration](https://isc.sans.edu/forums/diary/CSAM+Scary+ports+and+firewall+remote+administration/18781/)
+- 2014.10 [checkpoint] [Mobile Security Weekly - Lacoon Discovers the Xsser mRAT | Check Point Software Blog](https://blog.checkpoint.com/2014/10/03/mobile-security-weekly-lacoon-discovers-xsser-mrat/)
+- 2014.10 [lookout] [Just the facts: Xsser mRAT iOS malware](https://blog.lookout.com/xsser-mrat-ios)
+- 2014.09 [checkpoint] [Lacoon Discovers Xsser mRAT, the First Advanced iOS Trojan](https://blog.checkpoint.com/2014/09/30/lacoon-discovers-xsser-mrat-first-advanced-ios-trojan/)
+- 2014.09 [checkpoint] [Chinese Android mRAT Spyware Targets Hong Kong Protest](https://blog.checkpoint.com/2014/09/30/chinese-government-targets-hong-kong-protesters-android-mrat-spyware/)
+- 2014.09 [qq] [新型白利用（暴风）远控木马分析](https://tav.qq.com/index/newsDetail/162.html)
+- 2014.09 [comodo] [Warning! RATS Attacking Mobile Devices](https://blog.comodo.com/mobile-security/warning-rats-attacking-mobile-devices/)
+- 2014.09 [comodo] [Warning! RATS Attacking Mobile Devices](https://blog.comodo.com/warning-rats-attacking-mobile-devices/)
+- 2014.08 [] [远控木马伪造通信协议一例](http://blogs.360.cn/360safe/2014/08/29/cnc_trojan_and_fake_proto/)
+- 2014.08 [] [远控木马伪造通信协议一例](http://blogs.360.cn/blog/cnc_trojan_and_fake_proto/)
+- 2014.08 [] [播放器暗藏远控木马 360独家提供查杀方案](http://blogs.360.cn/360safe/2014/08/15/trojan_in_media_player/)
+- 2014.08 [cert] [Android RAT malware spreading via torrents](https://www.cert.pl/en/news/single/android-rat-malware-spreading-via-torrents/)
+- 2014.08 [rsa] [Finding & Eradicating RATs](https://community.rsa.com/community/products/netwitness/blog/2014/08/07/finding-eradicating-rats)
+- 2014.08 [mcafee] [Android App SandroRAT Targets Polish Banking Users via Phishing Email](https://securingtomorrow.mcafee.com/mcafee-labs/sandrorat-android-rat-targeting-polish-banking-users-via-e-mail-phishing/)
+- 2014.07 [bhconsulting] [Advanced Fee Fraud Now Plagued By RATs](http://bhconsulting.ie/advanced-fee-fraud-now-plagued-by-rats/)
+- 2014.07 [sans] [Keeping the RATs out: the trap is sprung - Part 3](https://isc.sans.edu/forums/diary/Keeping+the+RATs+out+the+trap+is+sprung+Part+3/18415/)
+- 2014.07 [sans] [Keeping the RATs out: **it happens - Part 2](https://isc.sans.edu/forums/diary/Keeping+the+RATs+out+it+happens+Part+2/18411/)
+- 2014.07 [sans] [Keeping the RATs out: an exercise in building IOCs - Part 1](https://isc.sans.edu/forums/diary/Keeping+the+RATs+out+an+exercise+in+building+IOCs+Part+1/18401/)
+- 2014.06 [plcscan] [Havex Rat又一个针对ICS/SCADA系统的恶意软件](http://plcscan.org/blog/2014/06/havex-rat-malware-strikes-ics-scada/)
+- 2014.06 [trendmicro] [PlugX RAT With “Time Bomb” Abuses Dropbox for Command-and-Control Settings](https://blog.trendmicro.com/trendlabs-security-intelligence/plugx-rat-with-time-bomb-abuses-dropbox-for-command-and-control-settings/)
+- 2014.05 [trendmicro] [The Blackshades RAT – Entry-Level Cybercrime](https://blog.trendmicro.com/trendlabs-security-intelligence/the-blackshades-rat-entry-level-cybercrime/)
+- 2014.05 [malwarebytes] [A RAT in Bird’s clothing](https://blog.malwarebytes.com/cybercrime/2014/05/a-rat-in-birds-clothing/)
+- 2014.05 [techhelplist] [Contrat Commercant N: ... - Virus](https://techhelplist.com/spam-list/577-contrat-commercant-n-virus)
+- 2014.05 [myonlinesecurity] [Contrat Commercant N: 9579514 – fake PDF malware](https://myonlinesecurity.co.uk/contrat-commercant-n-9579514-fake-pdf-malware/)
+- 2014.05 [avlsec] [捆绑包形式远控木马分析报告](http://blog.avlsec.com/2014/05/730/%e6%8d%86%e7%bb%91%e5%8c%85%e5%bd%a2%e5%bc%8f%e8%bf%9c%e6%8e%a7%e6%9c%a8%e9%a9%ac%e5%88%86%e6%9e%90%e6%8a%a5%e5%91%8a/)
+- 2014.05 [SECConsult] [Missing Entity Authentication / Deactivation of Protection in AVG Remote Administration](https://www.youtube.com/watch?v=XYvtwc10dLc)
+- 2014.05 [SECConsult] [Authentication Bypass / Missing Authentication in AVG Remote Administration](https://www.youtube.com/watch?v=exiLSy1oo3I)
+- 2014.04 [trendmicro] [Old Java RAT Updates, Includes Litecoin Plugin](https://blog.trendmicro.com/trendlabs-security-intelligence/old-java-rat-updates-includes-litecoin-plugin/)
+- 2014.04 [avlsec] [Android短信指令远控木马Herta木马分析报告](http://blog.avlsec.com/2014/04/471/herta%e6%9c%a8%e9%a9%ac%e5%88%86%e6%9e%90%e6%8a%a5%e5%91%8a/)
+- 2014.03 [trendmicro] [Kunming Attack Leads to Gh0st RAT Variant](https://blog.trendmicro.com/trendlabs-security-intelligence/kunming-attack-leads-to-gh0st-rat-variant/)
+- 2014.02 [checkpoint] [The Spy in Your Pocket, Part 1: An Overview of Mobile Remote Access Trojans (mRATs) | Check Point Software Blog](https://blog.checkpoint.com/2014/02/10/the-spy-in-your-pocket-part-1-an-overview-of-mobile-remote-access-trojans-mrats/)
+- 2014.01 [] [远控木马伪造通信协议一例](http://blogs.360.cn/post/cnc_trojan_and_fake_proto.html)
+- 2014.01 [] [假冒淘宝远控木马](http://blogs.360.cn/post/fake-taobao-rat.html)
+- 2014.01 [] [VBS远控木马](http://blogs.360.cn/post/vbs_cc_trojan-2.html)
+- 2014.01 [] [Oldboot鬼影又现，另一例山寨手机中运用云端远控技术的木马](http://blogs.360.cn/post/analysis_of_oldboot_c.html)
+- 2014.01 [] [播放器暗藏远控木马 360独家提供查杀方案](http://blogs.360.cn/post/trojan_in_media_player.html)
+- 2014.01 [] [安卓远控木马黑色产业链渐成气候，谨防手机变“肉鸡”](http://blogs.360.cn/post/rat-trojan.html)
+- 2014.01 [] [国内首个利用JavaScript脚本远控木马的技术分析报告](http://blogs.360.cn/post/android-huigezi-trojan.html)
+- 2014.01 [rsa] [Detecting njRAT in Your Environment](https://community.rsa.com/community/products/netwitness/blog/2014/01/02/detecting-njrat-in-your-environment)
+- 2013.12 [pediy] [[原创]逆向笔记--某远控的隐藏技术](https://bbs.pediy.com/thread-182543.htm)
+- 2013.11 [crowdstrike] [Adwind RAT Rebranding](https://www.crowdstrike.com/blog/adwind-rat-rebranding/)
+- 2013.11 [krebsonsecurity] [CryptoLocker Crew Ratchets Up the Ransom](https://krebsonsecurity.com/2013/11/cryptolocker-crew-ratchets-up-the-ransom/)
+- 2013.10 [trendmicro] [Dutch TorRAT Threat Actors Arrested](https://blog.trendmicro.com/trendlabs-security-intelligence/dutch-torrat-threat-actors-arrested/)
+- 2013.09 [comodo] [Super RATS? Comodo has Built a Better Mousetrap!](https://blog.comodo.com/malware/njrat-is-a-mobile-trojan-threatening-internet-security/)
+- 2013.09 [comodo] [Super RATS? Comodo has Built a Better Mousetrap!](https://blog.comodo.com/njrat-is-a-mobile-trojan-threatening-internet-security/)
+- 2013.08 [trendmicro] [How to Check if Your Website is Part of the Stealrat Botnet](https://blog.trendmicro.com/trendlabs-security-intelligence/how-to-check-if-your-website-is-part-of-the-stealrat-botnet/)
+- 2013.07 [trendmicro] [Compromised Sites Conceal StealRat Botnet Operations](https://blog.trendmicro.com/trendlabs-security-intelligence/compromised-sites-conceal-stealrat-botnet-operations/)
+- 2013.07 [talosintelligence] [Androrat - Android Remote Access Tool](https://blog.talosintelligence.com/2013/07/androrat-android-remote-access-tool.html)
+- 2013.06 [trendmicro] [Targeted Attack in Taiwan Uses Infamous Gh0st RAT](https://blog.trendmicro.com/trendlabs-security-intelligence/targeted-attack-in-taiwan-uses-infamous-gh0st-rat/)
+- 2013.05 [mcafee] [Travnet Botnet Controls Victims With Remote Admin Tool](https://securingtomorrow.mcafee.com/mcafee-labs/travnet-botnet-controls-victims-with-remote-admin-tool/)
+- 2013.04 [webroot] [A peek inside a (cracked) commercially available RAT (Remote Access Tool)](https://www.webroot.com/blog/2013/04/17/a-peek-inside-a-cracked-commercially-available-rat-remote-access-tool/)
+- 2013.04 [rapid7] [Weekly Update: Minecraft RAT Attacks, PHP Shell Games, and MongoDB](https://blog.rapid7.com/2013/04/04/weekly-update-24/)
+- 2013.04 [quequero] [McRat Malware Analysis – Part1](https://quequero.org/2013/04/mcrat-malware-analysis-part1/)
+- 2013.04 [webroot] [DIY Java-based RAT (Remote Access Tool) spotted in the wild](https://www.webroot.com/blog/2013/04/01/diy-java-based-rat-remote-access-tool-spotted-in-the-wild/)
+- 2013.02 [trendmicro] [BKDR_RARSTONE: New RAT to Watch Out For](https://blog.trendmicro.com/trendlabs-security-intelligence/bkdr_rarstone-new-rat-to-watch-out-for/)
+- 2012.11 [trendmicro] [Tsunami Warning Leads to Arcom RAT](https://blog.trendmicro.com/trendlabs-security-intelligence/tsunami-warning-leads-to-arcom-rat/)
+- 2012.11 [trendmicro] [New Xtreme RAT Attacks US, Israel, and Other Foreign Governments](https://blog.trendmicro.com/trendlabs-security-intelligence/new-xtreme-rat-attacks-on-usisrael-and-other-foreign-governments/)
+- 2012.11 [trendmicro] [DaRK DDoSseR Leads to Gh0st RAT](https://blog.trendmicro.com/trendlabs-security-intelligence/dark-ddosser-leads-to-gh0st-rat/)
+- 2012.10 [forcepoint] [Iranian Firefighters' Website Compromised to Serve VertexNet RAT](https://www.forcepoint.com/blog/security-labs/iranian-firefighters-website-compromised-serve-vertexnet-rat)
+- 2012.10 [trendmicro] [Xtreme RAT Targets Israeli Government](https://blog.trendmicro.com/trendlabs-security-intelligence/xtreme-rat-targets-israeli-government/)
+- 2012.09 [freebuf] [国外大牛人肉定向攻击远控PlugX开发者全过程分析](http://www.freebuf.com/articles/others-articles/5718.html)
+- 2012.09 [alienvault] [Tracking down the author of the PlugX RAT](https://www.alienvault.com/blogs/labs-research/tracking-down-the-author-of-the-plugx-rat)
+- 2012.08 [forcepoint] [Nepalese government websites compromised to serve Zegost RAT](https://www.forcepoint.com/blog/security-labs/nepalese-government-websites-compromised-serve-zegost-rat)
+- 2012.08 [sans] [Digital Forensics Case Leads: Multi-plat RAT, No US Cybersecurity bill, Dropbox drops a doozie, Volatility everywhere](https://digital-forensics.sans.org/blog/2012/08/03/digital-forensics-case-leads-multi-plat-rat-no-us-cybersecurity-bill-dropbox-drops-a-doozie-volatility-everywhere)
+- 2012.07 [freebuf] [DarkComet RAT作者宣布项目停止开发](http://www.freebuf.com/news/4939.html)
+- 2012.07 [freebuf] [用Nmap脚本检测Poison Ivy Rat控制端](http://www.freebuf.com/sectool/4940.html)
+- 2012.07 [freebuf] [[原创]PoisonIvy Rat 远程溢出实战](http://www.freebuf.com/articles/4921.html)
+- 2012.06 [alienvault] [New MaControl variant targeting Uyghur users, the Windows version using Gh0st RAT](https://www.alienvault.com/blogs/labs-research/new-macontrol-variant-targeting-uyghur-users-the-windows-version-using-gh0s)
+- 2012.06 [alienvault] [Capfire4 malware, RAT software and C&C service together](https://www.alienvault.com/blogs/labs-research/capfire4-malware-rat-software-and-cc-service-together)
+- 2012.06 [malwarebytes] [You Dirty RAT! Part 2 – BlackShades NET](https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-2-blackshades-net/)
+- 2012.06 [freebuf] [[更新]一款强大的远控 – DarkComet RAT V5.3.1](http://www.freebuf.com/sectool/3957.html)
+- 2012.06 [malwarebytes] [You dirty RAT! Part 1: DarkComet](https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/)
+- 2012.06 [malwarebytes] [RATs of Unusual Sizes](https://blog.malwarebytes.com/threat-analysis/2012/06/rats-of-unusual-sizes/)
+- 2012.05 [welivesecurity] [Malware RATs can steal your data and your money, your privacy too](https://www.welivesecurity.com/2012/05/23/malware-rats-can-steal-your-data-and-your-money-your-privacy-too/)
+- 2012.05 [forcepoint] [The Amnesty International UK website was compromised to serve Gh0st RAT [Update]](https://www.forcepoint.com/blog/security-labs/amnesty-international-uk-website-was-compromised-serve-gh0st-rat-update)
+- 2012.04 [toolswatch] [DarkComet-RAT Remote Administration Tool v5.1.1 released](http://www.toolswatch.org/2012/04/darkcomet-rat-remote-administration-tool-v5-1-1released/)
+- 2012.03 [alienvault] [MS Office exploit that targets MacOS X seen in the wild - delivers "Mac Control" RAT](https://www.alienvault.com/blogs/labs-research/ms-office-exploit-that-targets-macos-x-seen-in-the-wild-delivers-mac-contro)
+- 2012.03 [trustwave] [Dirty RAT Eats Nate's Banana](https://www.trustwave.com/Resources/SpiderLabs-Blog/Dirty-RAT-Eats-Nate-s-Banana/)
+- 2011.09 [securitythinkingcap] [RAT Hacking Evidence fresh from the source](https://securitythinkingcap.com/rat-hacking-evidence-fresh-from-the-source/)
+- 2011.09 [trendmicro] [Online Storage—A Godsend for Sentimental Pack Rats (like me)](http://blog.trendmicro.com/online-storage-a-godsend-for-sentimental-pack-rats-like-me/)
+- 2011.09 [hackerhurricane] [(W)(I) Your GM OnStar enabled car will rat you out starting Dec 2011](http://hackerhurricane.blogspot.com/2011/09/wi-your-gm-onstar-enabled-car-will-rat.html)
+- 2011.09 [hackingarticles] [How to use Prorat Trojan](http://www.hackingarticles.in/hack-pc-with-the-help-of-prorat-trojan/)
+- 2011.08 [toolswatch] [DarkComet-RAT (Remote Administration Tool) v4.0 Fix 1 available](http://www.toolswatch.org/2011/08/darkcomet-rat-remote-administration-tool-v4-0-fix-1-available/)
+- 2011.08 [microsoft] [Weekly Roundup : Aug 12, 2011 : Dissecting a Shady Rat](https://cloudblogs.microsoft.com/microsoftsecure/2011/08/12/weekly-roundup-aug-12-2011-dissecting-a-shady-rat/)
+- 2011.08 [bhconsulting] [Operation Shady RAT Claims Widespread Espionage](http://bhconsulting.ie/operation-shady-rat-claims-widespread-espionage/)
+- 2011.06 [publicintelligence] [Improving Afghan Infrastructure: Hirat Cotton Textile Mill](https://publicintelligence.net/improving-afghan-infrastructure-hirat-cotton-textile-mill/)
+- 2011.05 [krebsonsecurity] [Something Old is New Again: Mac RATs, CrimePacks, Sunspots & ZeuS Leaks](https://krebsonsecurity.com/2011/05/something-old-is-new-again-mac-rats-crimepacks-sunspots-zeus-leaks/)
+- 2011.05 [mcafee] [I Smell a RAT: Java Botnet Found in the Wild](https://securingtomorrow.mcafee.com/mcafee-labs/i-smell-a-rat-java-botnet-found-in-the-wild/)
+- 2011.05 [toolswatch] [DarkComet-RAT v3.3 available](http://www.toolswatch.org/2011/05/darkcomet-rat-v3-3-available/)
+- 2011.04 [pediy] [[原创]解决远控重复上线的源码](https://bbs.pediy.com/thread-132080.htm)
+- 2011.01 [toolswatch] [(EXCLUSIVE) DarkComet-RAT updated to v3.0.1](http://www.toolswatch.org/2011/01/darkcomet-rat-updated-to-v3-0-1/)
+- 2011.01 [cleanbytes] [AdSocks RAT — about the new Java trojan computer viruses](http://cleanbytes.net/java-trojan-horses-the-new-trojan-viruses-generation)
+- 2011.01 [toolswatch] [EXCLUSIVE : DarkComet-RAT 3.0 released (Impressive RAT tool)](http://www.toolswatch.org/2011/01/exclusive-darkcomet-rat-3-0-released-impressive-rat-tool/)
+- 2010.09 [joshrendek] [Just launched a starcraft video/strat site](https://joshrendek.com/2010/09/just-launched-a-starcraft-video/strat-site/)
+- 2009.08 [g] [WordPress <= 2.8.* Remote admin reset password](http://g-laurent.blogspot.com/2009/08/wordpress-283-remote-admin-reset.html)
+- 2008.10 [lightbluetouchpaper] [Liberal Democrat leader visits our lab](https://www.lightbluetouchpaper.org/2008/10/17/nick-clegg-visits/)
+- 2008.09 [sans] [The Lab Rat - Testing Digital Forensics Tools and Gear](https://digital-forensics.sans.org/blog/2008/09/26/the-lab-rat-testing-digital-forensics-tools-and-gear)
+- 2008.01 [trendmicro] [Will 2008 Really Be The ‘Year of The Rat’?](https://blog.trendmicro.com/trendlabs-security-intelligence/will-2008-really-be-the-year-of-the-rat/)
+- 2007.03 [trendmicro] [STRAT struts its stuff via Skype](https://blog.trendmicro.com/trendlabs-security-intelligence/strat-struts-its-stuff-via-skype/)
+- 2007.03 [pediy] [[原创]Remote Administrator 2.2 服务器端去自效验+文件名效验](https://bbs.pediy.com/thread-40409.htm)
+- 2007.01 [trendmicro] [Strat Strikes Again!!!](https://blog.trendmicro.com/trendlabs-security-intelligence/strat-strikes-again212121/)
+- 2006.12 [trendmicro] [Another Strat Attack](https://blog.trendmicro.com/trendlabs-security-intelligence/another-strat-attack/)
+- 2006.11 [trendmicro] [TROJ_STRAT Spams Again](https://blog.trendmicro.com/trendlabs-security-intelligence/troj-strat-spams-again/)
+- 2006.04 [pediy] [[求助]Remote Administrator的算法](https://bbs.pediy.com/thread-24399.htm)
+- 2005.06 [infosecblog] [Rats!](https://www.infosecblog.org/2005/06/rats/)
+- 2005.05 [securelist] [Rugrat a year old](https://securelist.com/rugrat-a-year-old/30013/)
+
+
+# Contribute
+Contents auto exported by Our System, please raise Issue if you have any question.
