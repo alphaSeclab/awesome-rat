@@ -8,7 +8,8 @@
 
 
 # RAT
-
+- 开源远控工具，和恶意远控分析报告。
+- [English Version](https://github.com/alphaSeclab/awesome-rat/blob/master/Readme_en.md)
 
 # 目录
 - [工具](#b318465d0d415e35fc0883e9894261d1)
